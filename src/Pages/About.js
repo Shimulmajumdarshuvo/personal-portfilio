@@ -7,12 +7,14 @@ const About = () => {
             <div className="container cover-bg p-3 p-lg-4 text-white">
                 <div className="row">
                     <div className="col-lg-4 col-md-5">
-                        <div className="avatar hover-effect bg-white shadow-sm p-1"><img src="https://i.ibb.co/51Mbc0z/CV.jpg" width="200" height="200" /></div>
+                        <div className="avatar hover-effect bg-white shadow-sm p-1"><img src="https://i.ibb.co/51Mbc0z/CV.jpg" width="220" height="250" /></div>
                     </div>
                     <div className="col-lg-8 col-md-7 text-center text-md-start">
                         <h2 className="h1 text-black mt-2">Shimul Majumdar Shuvo</h2>
                         <p className='text-black' > Junior MERN Stack Web Developer & Web Designer</p>
-
+                        <p className='text-black'>Hello! I am Professional Frontend developer and Backend developer,Graphic Design,Video Editing and
+                            content making. I can work with full responsibility and hard working for a large organization. My hard
+                            work is my total motivation and confidence.</p>
 
                         <div className="d-print-none" >
                             <a className="btn  shadow-lg mt-1 me-1 buttons" href="https://drive.google.com/file/d/1O_LJnko1vwiZhzrC5LRzvtxFBshS9fl_/view?fbclid=IwAR3nfpIiz6XCR3APrlWd4cvfLxT2PssHt57fWX9BewVERc0w3Sk2TnsUHVM" target="_blank">Download CV</a>
@@ -21,7 +23,11 @@ const About = () => {
 
                 </div>
 
+
+
+
             </div>
+
 
 
 

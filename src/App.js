@@ -4,6 +4,7 @@ import Footer from './Footer/Footer';
 
 import Header from './Header/Header';
 import About from './Pages/About';
+import Contact from './Pages/Contact/Contact';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div >
       <Header></Header>
       <About></About>
+      <Contact></Contact>
       <Footer></Footer>
 
     </div>
