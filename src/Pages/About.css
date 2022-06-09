@@ -1,0 +1,12 @@
+.buttons {
+    border: 1px solid rgb(209, 197, 221);
+    border-radius: 15px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.buttons:hover {
+    color: white;
+    background-color: rgb(39, 206, 248);
+
+}
