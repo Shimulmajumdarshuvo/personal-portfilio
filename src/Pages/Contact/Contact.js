@@ -15,13 +15,14 @@ const Contact = () => {
         <div className='container border' style={{
             marginTop: "50px",
             width: "50%",
-            backgroundImage: `url('https://media.istockphoto.com/photos/pastel-colored-light-blue-backgrounds-picture-id1334563669?k=20&m=1334563669&s=612x612&w=0&h=uBqhK8ETiWQsYMmObllkbqK4YnFhK_kuINXCjqANj_s=')`,
+            backgroundImage: `url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000')`,
             backgroundPosition: 'center',
             backgroundSize: "cover"
 
         }}>
-            <h1 style={{ marginTop: '25px' }} >Contact Form</h1>
+            <h1 className='text-center' style={{ marginTop: '25px' }} >Contact Form</h1>
             <form onSubmit={sendEmail} className='row' style={{ margin: "25px " }}>
+
                 <label>Name</label>
                 <input type="text" name='name' className='form-control' />
                 <label>Email</label>
@@ -29,6 +30,7 @@ const Contact = () => {
                 <label>Message</label>
                 <textarea name='message' rows='4' className='form-control'></textarea>
                 <input type="submit" value="Submit" className='form-control btn btn-primary mt-4' />
+
             </form>
 
 
