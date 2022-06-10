@@ -1,23 +1,18 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer/Footer';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import DetailsProjects from './Pages/Projects/DetailsProjects';
 
-import Header from './Header/Header';
-import About from './Pages/About';
-import Contact from './Pages/Contact/Contact';
-import Projects from './Pages/Projects/Projects';
-import SkillSection from './Pages/SkillSection/SkillSection';
 
 
 function App() {
   return (
     <div >
-      <Header></Header>
-      <About></About>
-      <SkillSection></SkillSection>
-      <Projects></Projects>
-      <Contact></Contact>
-      <Footer></Footer>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/service/:serviceId' element={<DetailsProjects></DetailsProjects>}></Route>
+      </Routes>
 
     </div>
   );

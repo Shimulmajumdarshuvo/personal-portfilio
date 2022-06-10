@@ -12,6 +12,17 @@
     background-color: rgb(247, 254, 255);
 }
 
+button {
+    border: 1px solid ghostwhite;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 18px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
 .service img {
 
     width: 100%;
