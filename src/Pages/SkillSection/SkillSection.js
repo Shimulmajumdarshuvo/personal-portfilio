@@ -3,7 +3,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const SkillSection = () => {
     return (
-        <div className='container'>
+        <div id="skill" className='container'>
             <h1>Professional Skills</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">

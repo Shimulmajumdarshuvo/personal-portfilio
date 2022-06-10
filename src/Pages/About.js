@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <div className="container cover-bg p-3 p-lg-4 text-white">
+            <div id="about" className="container cover-bg p-3 p-lg-4 text-white">
                 <div className="row">
                     <div className="col-lg-4 col-md-5">
                         <div className="avatar hover-effect bg-white shadow-sm p-1"><img src="https://i.ibb.co/51Mbc0z/CV.jpg" width="220" height="250" /></div>

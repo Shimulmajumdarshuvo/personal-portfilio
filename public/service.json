@@ -1,0 +1,34 @@
+[
+    {
+        "id": "27cf3",
+        "name": "Tech BD",
+        "description": "This is a Fruits Warehouse company where owner can manage their Products.",
+        "feature": " HomePage, All Item,Featured Category, Login-SignUp, CRUD Operation.",
+        "technology": "HTML, CSS, React-Bootstrap, JavaScript, React, React Router, NodeJs, ExpressJs, MongoDB, CRUD, Firebase.",
+        "img": "https://i.ibb.co/VqxnpJK/Screenshot-58.png"
+    },
+    {
+        "id": "6add9d",
+        "name": "Laptop Devices",
+        "description": "This is a Computer Parts Manufacturer company who supplies wholesale products to their clients.",
+        "feature": " HomePage, All Product, Login-SignUp, Admin-Panel, Dashboard, Stripe.",
+        "technology": "HTML, CSS, Tailwind, DaisyUI, JavaScript, React, React Router, React-Hook-Form, NodeJs, ExpressJs, MongoDB, CRUD, Firebase.",
+        "img": "https://i.ibb.co/ZhJd4bH/Screenshot-57.png"
+    },
+    {
+        "id": "c6cb80a",
+        "name": "Weeding Photography",
+        "description": "This is a Personal or Freelance Photographer's Website who can independently work.",
+        "feature": " HomePage, Services, Login-SignUp",
+        "technology": "HTML, CSS, React-Bootstrap, JavaScript, React, React Router, Firebase",
+        "img": "https://i.ibb.co/GTghzt3/Screenshot-56.png"
+    },
+    {
+        "id": "f54a476",
+        "name": "Laptop Ecommerce Site",
+        "description": "This is Laptop Ecommerce Site in font end web application",
+        "feature": " Home Page , banner section ,Review part , Dashboard ,blogs part etc..",
+        "technology": "Html , CSS , JavaScript , Netlify.",
+        "img": "https://i.ibb.co/P4Xz91c/Screenshot-60.png"
+    }
+]
