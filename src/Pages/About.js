@@ -1,17 +1,33 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter'
 import './About.css'
 
 const About = () => {
+
     return (
         <div>
-            <div id="about" className="container cover-bg p-3 p-lg-4 text-white">
+            <div id="about" className="container cover-bg p-3 p-lg-4 ">
                 <div className="row">
                     <div className="col-lg-4 col-md-5">
                         <div className="avatar hover-effect bg-white shadow-sm p-1"><img src="https://i.ibb.co/51Mbc0z/CV.jpg" width="220" height="250" /></div>
                     </div>
                     <div className="col-lg-8 col-md-7 text-center text-md-start">
                         <h2 className="h1 text-black mt-2">Shimul Majumdar Shuvo</h2>
-                        <p className='text-black' > Junior MERN Stack Web Developer & Web Designer</p>
+                        <h3 >
+                            I'm a
+                            <span style={{ color: 'purple', fontWeight: 'bold' }}>
+                                <Typewriter
+                                    loop={5}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={1000}
+                                    words={['Junior MERN Stack Web Developer ', '  Web Designer', 'Photographer']}
+
+                                />
+                            </span>
+                        </h3>
                         <p className='text-black'>I am a MERN stack web developer from Khulna, Bangladesh. I work as a freelance web developer for clients across the globe with great product delivery.
                             Skilled in HTML, CSS, Bootstrap, TailwindCSS, Javascript(ES6), and MERN
                             (Mongo DB, Express, React, Node) stack, I also have sound knowledge

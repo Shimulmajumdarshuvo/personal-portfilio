@@ -8,7 +8,9 @@
         "img": "https://i.ibb.co/VqxnpJK/Screenshot-58.png",
         "img2nd": "https://i.ibb.co/w7nLJSp/Screenshot-64.png",
         "img3rd": "https://i.ibb.co/xJqrbqc/Screenshot-63.png",
-        "live": "https://laptop-services-39c63.web.app/"
+        "live": "https://tech-bd-abf2a.firebaseapp.com/",
+        "gitClient": "https://github.com/Shimulmajumdarshuvo/Tech-BD-Client-site",
+        "gitServer": "https://github.com/Shimulmajumdarshuvo/Tech-BD-server-site"
     },
     {
         "id": "6add9d",
@@ -19,7 +21,9 @@
         "img": "https://i.ibb.co/ZhJd4bH/Screenshot-57.png",
         "img2nd": "https://i.ibb.co/gDZ6kZs/Screenshot-72.png",
         "img3rd": "https://i.ibb.co/F0FR9Bs/Screenshot-71.png",
-        "live": "https://laptop-services-39c63.web.app/"
+        "live": "https://laptop-services-39c63.web.app/",
+        "gitClient": "https://github.com/Shimulmajumdarshuvo/Laptop-service-projects-client-site",
+        "gitServer": "https://github.com/Shimulmajumdarshuvo/Laptop-services-projects-server-site"
     },
     {
         "id": "c6cb80a",
@@ -30,7 +34,8 @@
         "img": "https://i.ibb.co/GTghzt3/Screenshot-56.png",
         "img2nd": "https://i.ibb.co/JyNPfD1/Screenshot-67.png",
         "img3rd": "https://i.ibb.co/r6bh4fC/Screenshot-68.png",
-        "live": "https://laptop-services-39c63.web.app/"
+        "live": "https://wedding-phographer-projects.firebaseapp.com/",
+        "gitClient": "https://github.com/Shimulmajumdarshuvo/weeding-photography-projects"
     },
     {
         "id": "f54a476",
@@ -41,6 +46,7 @@
         "img": "https://i.ibb.co/P4Xz91c/Screenshot-60.png",
         "img2nd": "https://i.ibb.co/JyNPfD1/Screenshot-67.png",
         "img3rd": "https://i.ibb.co/r6bh4fC/Screenshot-68.png",
-        "live": "https://laptop-services-39c63.web.app/"
+        "live": "https://laptop-services-39c63.web.app/",
+        "gitClient": "https://github.com/Shimulmajumdarshuvo/weeding-photography-projects"
     }
 ]

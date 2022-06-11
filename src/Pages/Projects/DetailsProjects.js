@@ -30,6 +30,11 @@ const DetailsProjects = () => {
                     <p>{service?.description}</p>
                     <p>{service?.feature}</p>
                     <p>{service?.technology}</p>
+                    <a className="btn  shadow-lg mt-1 me-1 buttons" href={service?.live} target="_blank">LIVE LINK </a>
+                    <a className="btn  shadow-lg mt-1 me-1 buttons" href={service?.gitClient} target="_blank">Git Client </a>
+                    <a className="btn  shadow-lg mt-1 me-1 buttons" href={service?.gitServer} target="_blank">Git Server </a>
+
+
 
 
                 </div>
