@@ -20,14 +20,16 @@ const DetailsProjects = () => {
         <div >
             <div className='add-card'>
 
-                <div >
-                    <img src={service.img} alt="" />
+                <div className='text-center'>
+                    <img src={service?.img} alt="" />
+                    <img src={service?.img2nd} alt="" />
+                    <img src={service?.img3rd} alt="" />
                 </div>
                 <div>
                     <h2> {service?.name}</h2>
                     <p>{service?.description}</p>
-                    <p>Feature :{service?.feature}</p>
-                    <p> Technology :{service?.technology}</p>
+                    <p>{service?.feature}</p>
+                    <p>{service?.technology}</p>
 
 
                 </div>

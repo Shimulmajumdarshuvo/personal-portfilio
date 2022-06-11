@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Service.css'
 const Service = ({ service }) => {
-    const { id, name, img, description, feature, technology } = service;
+    const { id, name, live, img, description } = service;
     const navigate = useNavigate();
 
 
@@ -11,20 +11,18 @@ const Service = ({ service }) => {
     }
 
 
+
     return (
         <div id="services" className='service'>
             <img src={img} alt="" />
             <h4>{name}</h4>
             <p>{description}</p>
-            <p> Feature : {feature}</p>
-            <p> Technology : {technology}</p>
 
 
 
-            <Link to='/checkout'>
-                <button className='button '>LIVE LINK</button>
 
-            </Link>
+
+            <a className="btn  shadow-lg mt-1 me-1 buttons" href={live} target="_blank">LIVE LINK </a>
 
 
 

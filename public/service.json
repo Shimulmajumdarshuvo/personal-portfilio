@@ -2,18 +2,24 @@
     {
         "id": "27cf3",
         "name": "Tech BD",
-        "description": "This is a Fruits Warehouse company where owner can manage their Products.",
+        "description": "This is Fruits Warehouse company where owner can manage their Products.",
         "feature": " HomePage, All Item,Featured Category, Login-SignUp, CRUD Operation.",
         "technology": "HTML, CSS, React-Bootstrap, JavaScript, React, React Router, NodeJs, ExpressJs, MongoDB, CRUD, Firebase.",
-        "img": "https://i.ibb.co/VqxnpJK/Screenshot-58.png"
+        "img": "https://i.ibb.co/VqxnpJK/Screenshot-58.png",
+        "img2nd": "https://i.ibb.co/w7nLJSp/Screenshot-64.png",
+        "img3rd": "https://i.ibb.co/xJqrbqc/Screenshot-63.png",
+        "live": "https://laptop-services-39c63.web.app/"
     },
     {
         "id": "6add9d",
         "name": "Laptop Devices",
-        "description": "This is a Computer Parts Manufacturer company who supplies wholesale products to their clients.",
+        "description": "This is Computer Parts Manufacturer company who supplies wholesale products their clients.",
         "feature": " HomePage, All Product, Login-SignUp, Admin-Panel, Dashboard, Stripe.",
         "technology": "HTML, CSS, Tailwind, DaisyUI, JavaScript, React, React Router, React-Hook-Form, NodeJs, ExpressJs, MongoDB, CRUD, Firebase.",
-        "img": "https://i.ibb.co/ZhJd4bH/Screenshot-57.png"
+        "img": "https://i.ibb.co/ZhJd4bH/Screenshot-57.png",
+        "img2nd": "https://i.ibb.co/gDZ6kZs/Screenshot-72.png",
+        "img3rd": "https://i.ibb.co/F0FR9Bs/Screenshot-71.png",
+        "live": "https://laptop-services-39c63.web.app/"
     },
     {
         "id": "c6cb80a",
@@ -21,7 +27,10 @@
         "description": "This is a Personal or Freelance Photographer's Website who can independently work.",
         "feature": " HomePage, Services, Login-SignUp",
         "technology": "HTML, CSS, React-Bootstrap, JavaScript, React, React Router, Firebase",
-        "img": "https://i.ibb.co/GTghzt3/Screenshot-56.png"
+        "img": "https://i.ibb.co/GTghzt3/Screenshot-56.png",
+        "img2nd": "https://i.ibb.co/JyNPfD1/Screenshot-67.png",
+        "img3rd": "https://i.ibb.co/r6bh4fC/Screenshot-68.png",
+        "live": "https://laptop-services-39c63.web.app/"
     },
     {
         "id": "f54a476",
@@ -29,6 +38,9 @@
         "description": "This is Laptop Ecommerce Site in font end web application",
         "feature": " Home Page , banner section ,Review part , Dashboard ,blogs part etc..",
         "technology": "Html , CSS , JavaScript , Netlify.",
-        "img": "https://i.ibb.co/P4Xz91c/Screenshot-60.png"
+        "img": "https://i.ibb.co/P4Xz91c/Screenshot-60.png",
+        "img2nd": "https://i.ibb.co/JyNPfD1/Screenshot-67.png",
+        "img3rd": "https://i.ibb.co/r6bh4fC/Screenshot-68.png",
+        "live": "https://laptop-services-39c63.web.app/"
     }
 ]
