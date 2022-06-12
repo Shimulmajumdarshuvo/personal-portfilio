@@ -14,8 +14,9 @@ const About = () => {
                     <div className="col-lg-8 col-md-7 text-center text-md-start">
                         <h2 className="h1 text-black mt-2">Shimul Majumdar Shuvo</h2>
                         <h3 >
-                            I'm a
-                            <span style={{ color: 'purple', fontWeight: 'bold' }}>
+                            Junior MERN Stack Web Developer & Web Designer
+
+                            {/* <span style={{ color: 'purple', fontWeight: 'bold' }}>
                                 <Typewriter
                                     loop={5}
                                     cursor
@@ -26,7 +27,7 @@ const About = () => {
                                     words={['Junior MERN Stack Web Developer ', '  Web Designer', 'Photographer']}
 
                                 />
-                            </span>
+                            </span> */}
                         </h3>
                         <p className='text-black'>I am a MERN stack web developer from Khulna, Bangladesh. I work as a freelance web developer for clients across the globe with great product delivery.
                             Skilled in HTML, CSS, Bootstrap, TailwindCSS, Javascript(ES6), and MERN
