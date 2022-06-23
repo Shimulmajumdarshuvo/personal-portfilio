@@ -14,8 +14,10 @@ const Projects = () => {
     }, []);
     return (
         <div className='container'>
-            <div className='services-title'>
-                <h1>My Projects</h1>
+
+            <div className='w-25 d-flex text-center container my-1'>
+                <h2 className=' header' >My Projects </h2>
+
             </div>
 
             <div className='services-container'>

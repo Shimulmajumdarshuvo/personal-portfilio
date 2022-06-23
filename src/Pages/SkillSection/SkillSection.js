@@ -4,9 +4,13 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const SkillSection = () => {
     return (
         <div id="skill" className='container'>
-            <h1>Professional Skills</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+
+            <div className='w-25 d-flex text-center container my-1'>
+                <h2 className=' header' >Professional Skills </h2>
+
+            </div>
+            <div class="row row-cols-1 row-cols-md-3   g-4">
+                <div class="col shadow-lg">
                     <div class="card">
 
                         <div class="card-body">
@@ -29,7 +33,7 @@ const SkillSection = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col shadow-sm">
                     <div class="card">
 
                         <div class="card-body">
@@ -44,7 +48,7 @@ const SkillSection = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col shadow-lg">
                     <div class="card">
 
                         <div class="card-body">

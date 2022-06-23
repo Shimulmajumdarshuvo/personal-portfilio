@@ -1,0 +1,39 @@
+.header {
+
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgb(24, 8, 116);
+    margin-bottom: 30px;
+}
+
+.stylePart {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.stylePart h4 {
+    color: #483D8B;
+}
+
+
+
+.icons {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+    color: #000024;
+
+    transition: .5s;
+}
+
+.icons:hover {
+    color: #010e38;
+    transform: scale(.8);
+}
