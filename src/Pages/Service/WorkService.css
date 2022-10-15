@@ -1,0 +1,24 @@
+.TopService {
+    background: lightcyan;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.mainService {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.subService {
+    border: 2px solid rgb(183, 223, 230);
+    border-radius: 5px;
+
+}
+
+.icon {
+    font-size: 35px;
+    color: rgba(75, 219, 224, 0.692);
+}

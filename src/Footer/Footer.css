@@ -1,6 +1,47 @@
-.footer {
-    background-color: #0B0D17;
-    color: ghostwhite;
+.footerPart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #0c1f34;
+    color: aliceblue;
+    padding-top: 3%;
 
-    padding: 10px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fSection {
+    padding: 20px 20px;
+    margin-left: 5%;
+}
+
+.fSection p {
+    padding-top: 5%;
+}
+
+.fSection span {
+    margin: 3.5px;
+    border-radius: 6px;
+    padding: 5px 7px;
+    font-size: 22px;
+    color: rgb(1, 8, 44);
+
+    background: #dde1e7;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+
+
+}
+
+.fSection span:hover {
+    color: rgb(219, 243, 243);
+    background: #0c1f34;
+    cursor: pointer;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+@media only screen and (max-width:660px) {
+    .footerPart {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
 }

@@ -1,0 +1,31 @@
+.doWork {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px;
+    width: 87%;
+    margin: 15px auto;
+    grid-gap: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.working-sec {
+    background: #dde1e7;
+    padding: 15px 0;
+}
+
+.subWork {
+    border: 1px solid rgb(158, 223, 219);
+    background-color: rgba(243, 255, 240, 0.779);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.subWork h1 {
+    font-size: 43px;
+    color: rgba(0, 132, 255, 0.697);
+}
+
+.subWork h2 {
+    font-size: 26px;
+    color: rgb(1, 10, 103);
+}

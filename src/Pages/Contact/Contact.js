@@ -18,7 +18,7 @@ const Contact = () => {
         <div id="contact" className='container border py-3' style={{
             marginTop: "50px",
             width: "100%",
-            backgroundImage: `url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000')`,
+            backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFH19T231E01SIxN2amaREEbjeDugqT6Xog&usqp=CAU')`,
             backgroundPosition: 'center',
             backgroundSize: "cover"
 
