@@ -37,10 +37,23 @@
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
 }
 
-@media only screen and (max-width:660px) {
+
+
+@media only screen and (max-width:980px) {
     .footerPart {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .footerPart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
 
     }
 

@@ -1,3 +1,8 @@
+.HeadService {
+    background: #dde1e7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .services-title {
     text-align: center;
     color: rgb(1, 11, 17);
@@ -9,6 +14,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin: 0 auto;
+    text-align: center;
 
 }
 

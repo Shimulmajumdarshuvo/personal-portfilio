@@ -29,3 +29,24 @@
     font-size: 26px;
     color: rgb(1, 10, 103);
 }
+
+@media only screen and (max-width:980px) {
+    .doWork {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .doWork {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

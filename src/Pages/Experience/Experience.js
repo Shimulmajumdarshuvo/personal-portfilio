@@ -31,7 +31,7 @@ const Experience = () => {
                         <div class="card-body">
                             <h2 className='icons'><AiOutlineAntDesign /></h2>
                             <h4>Web Design</h4>
-                            <p class="card-text">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers.</p>
+                            <p class="card-text">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing .</p>
                         </div>
                     </div>
                 </div>

@@ -61,7 +61,7 @@
 
 }
 
-@media only screen and (max-width:560px) {
+@media only screen and (max-width:500px) {
     .subMain {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -69,7 +69,23 @@
     }
 
     .sub-img img {
+        padding-left: 2px;
+        height: 250px;
+    }
+}
 
-        height: 300px;
+@media only screen and (max-width:450px) {
+    .subMain {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+
+    .sub-img img {
+        padding-left: 0px;
+        height: 200px;
     }
 }

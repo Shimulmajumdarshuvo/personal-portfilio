@@ -13,22 +13,24 @@ const Projects = () => {
 
     }, []);
     return (
-        <div className='container'>
+        <div className='HeadService'>
+            <div className='container '>
 
-            <div className='w-25 d-flex text-center container my-1'>
-                <h2 className=' header' >My Projects </h2>
+                <div className='w-25 d-flex text-center container my-1'>
+                    <h2 className=' header' >My Projects </h2>
 
-            </div>
+                </div>
 
-            <div className='services-container'>
+                <div className='services-container'>
 
-                {
-                    services.map(service => <Service
-                        key={service.id}
-                        service={service}
+                    {
+                        services.map(service => <Service
+                            key={service.id}
+                            service={service}
 
-                    ></Service>)
-                }
+                        ></Service>)
+                    }
+                </div>
             </div>
         </div>
     );
