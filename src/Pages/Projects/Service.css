@@ -5,7 +5,8 @@
     padding: 10px 5px;
     border-radius: 7px;
     background: #dde1e7;
-
+    position: relative;
+    overflow: hidden;
 
     color: rgb(0, 32, 51);
 
@@ -35,12 +36,13 @@
 
 .service h4 {
     text-align: left;
+    margin-top: 18px;
     padding: 2px 8px;
 }
 
 .service p {
     text-align: left;
-    padding: 2px 8px;
+    padding: 2px 8px
 }
 
 
@@ -50,7 +52,15 @@
     width: 90%;
     margin: 0 auto;
     height: 200px;
+    object-fit: cover;
 }
+
+
+.service:hover img {
+    transform: scale(1.2);
+    transition: transform 1.5s;
+}
+
 
 
 .btn {
