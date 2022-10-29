@@ -62,24 +62,24 @@
 }
 
 .progress-title {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 .progress-title h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
 }
 
 .progress {
-    height: 20px;
+    height: 16px;
     background: #171b3c;
     border-radius: 20px;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.658);
     box-shadow: 0 2px 2px #4f4c4c;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     overflow: visible;
     position: relative;
 }

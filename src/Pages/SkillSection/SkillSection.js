@@ -168,36 +168,44 @@ const SkillSection = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 container">
                         <div className="progress-title">
                             <h3>HTML</h3>
                             <div className="progress">
-                                <div className="progress-bar" style={{width:"65%", backgroundColor:"#ef2d56"}}>
-                                    <div className="progress-value">65%</div>
+                                <div className="progress-bar" style={{ width: "90%", backgroundColor: "#CB2DF6" }}>
+                                    <div className="progress-value">90%</div>
                                 </div>
                             </div>
                         </div>
                         <div className="progress-title">
                             <h3>CSS</h3>
                             <div className="progress">
-                                <div className="progress-bar"style= {{width:"85%",backgroundColor:'#FF9900'}}>
-                                    <div className="progress-value">85%</div>
+                                <div className="progress-bar" style={{ width: "90%", backgroundColor: '#77183C' }}>
+                                    <div className="progress-value">90%</div>
                                 </div>
                             </div>
                         </div>
                         <div className="progress-title">
-                            <h3>Javascript</h3>
+                            <h3>Javascript + Es6</h3>
                             <div className="progress">
-                                <div className="progress-bar"  style={{ width: "80%",backgroundColor:"#82B700"  }}>
+                                <div className="progress-bar" style={{ width: "80%", backgroundColor: "#096363" }}>
                                     <div className="progress-value">80%</div>
                                 </div>
                             </div>
                         </div>
                         <div className="progress-title">
-                            <h3>React</h3>
+                            <h3>React.JS</h3>
                             <div className="progress">
-                                <div className="progress-bar"    style={{ width: "75%",backgroundColor:"#00EBDD"  }}>
-                                    <div className="progress-value">75%</div>
+                                <div className="progress-bar" style={{ width: "85%", backgroundColor: "#00EBDD" }}>
+                                    <div className="progress-value">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="progress-title">
+                            <h3>Node.JS + MongoDB</h3>
+                            <div className="progress">
+                                <div className="progress-bar" style={{ width: "80%", backgroundColor: "#2D4BF6 " }}>
+                                    <div className="progress-value">80%</div>
                                 </div>
                             </div>
                         </div>
