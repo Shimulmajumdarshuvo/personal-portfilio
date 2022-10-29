@@ -9,6 +9,7 @@ import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
 import Projects from '../Projects/Projects';
 import WorkService from '../Service/WorkService';
+import Review from '../Review/Review';
 
 import SkillSection from '../SkillSection/SkillSection';
 
@@ -23,7 +24,10 @@ const Home = () => {
             <Education></Education>
             <DoWorking></DoWorking>
             <Projects></Projects>
+            
             <WorkService></WorkService>
+            <Review></Review>
+            
             <Contact></Contact>
 
 

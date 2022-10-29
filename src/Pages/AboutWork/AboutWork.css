@@ -3,12 +3,13 @@
     grid-template-columns: repeat(2, 1fr);
     width: 85%;
     margin: 15px auto;
+
     grid-gap: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mainWork {
-    background: #f6f9fe;
+    background: #dde1e7;
 }
 
 .subMain {

@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar className='navbar-part text-info' collapseOnSelect expand="lg" sticky='top' >
                 <Container className='nav-bar '>
                     <Navbar.Brand as={Link} to="/">
-                        <img width={130} src="https://uncw.edu/eportfolio/images/ePortfolio_510x247.png" alt="" />
+                        <img width={140} height={70} src="https://i.ibb.co/1KbY4x2/shimul-majumdar-1.png" alt="" />
 
                     </Navbar.Brand>
 

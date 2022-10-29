@@ -10,22 +10,12 @@ const Service = ({ service }) => {
         navigate(`/service/${id}`);
     }
 
-
-
     return (
         <div id="services" className='service'>
             <img src={img} alt="" />
             <h4>{name}</h4>
             <p>{description}</p>
-
-
-
-
-
             <a className="btn  shadow-lg mt-1 me-1 buttons" href={live} target="_blank">Live Link </a>
-
-
-
             <button className='button mx-5' onClick={() => navigateToServiceDetail(id)}>
                 See Details
             </button>

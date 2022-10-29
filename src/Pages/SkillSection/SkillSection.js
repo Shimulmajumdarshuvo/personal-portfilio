@@ -1,15 +1,16 @@
 import React from 'react';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import './SkillSection.css';
+
 
 const SkillSection = () => {
     return (
-        <div id="skill" className='container'>
+        <div id="skill" className=' Skill-Sections'>
 
-            <div className='w-25 d-flex text-center container my-1'>
-                <h2 className=' header' >Professional Skills </h2>
+            <div className='w-25 d-flex text-info text-center container my-1'>
+                <h2 className=' header ' >Professional Skills </h2>
 
             </div>
-            <div class="row row-cols-1 row-cols-md-3   g-4">
+            {/* <div class="row row-cols-1 row-cols-md-3   g-4">
                 <div class="col shadow-lg">
                     <div class="card">
 
@@ -68,7 +69,143 @@ const SkillSection = () => {
                     </div>
                 </div>
 
+            </div> */}
+            {/* <div className="nh-skill">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6">
+                            <div className="nh-skill-inner">
+                                <div className="nh-professional-skill">
+                                    <h3>Technical Skill</h3>
+                                    <div className="each-skills">
+                                        <div className="candidatos">
+                                            <div className="parcial">
+                                                <div className="info">
+                                                    <div className="name">Javascript</div>
+                                                    <div className="percentage-num">86%</div>
+                                                </div>
+                                                <div className="progressBar">
+                                                    <div className="percentages" style={{ width: "86%" }}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="candidatos">
+                                            <div className="parcial">
+                                                <div className="info">
+                                                    <div className="name">React</div>
+                                                    <div className="percentage-num">90%</div>
+                                                </div>
+                                                <div className="progressBar">
+                                                    <div className="percentages" style={{ width: "90%" }}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="candidatos">
+                                            <div className="parcial">
+                                                <div className="info">
+                                                    <div className="name">Node.js</div>
+                                                    <div className="percentage-num">60%</div>
+                                                </div>
+                                                <div className="progressBar">
+                                                    <div className="percentages" style={{ width: "60%" }}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="candidatos">
+                                            <div className="parcial">
+                                                <div className="info">
+                                                    <div className="name">CSS</div>
+                                                    <div className="percentage-num">80%</div>
+                                                </div>
+                                                <div className="progressBar">
+                                                    <div className="percentages" style={{ width: "80%" }}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-sm-12 col-md-6">
+                            <div className="nh-professional-skills">
+                                <h3>Professional Skills</h3>
+                                <ul className='nh-professional-progress'>
+                                    <li>
+                                        <div className="nh-progress nh-progress-circle" data-progress="95"></div>
+                                        <div className="pr-skill-name">Communication</div>
+                                    </li>
+
+                                    <li>
+                                        <div className="nh-progress nh-progress-circle" data-progress="75"></div>
+                                        <div className="pr-skill-name">Team work</div>
+                                    </li>
+
+                                    <li>
+                                        <div className="nh-progress nh-progress-circle" data-progress="65"></div>
+                                        <div className="pr-skill-name">MongoDB</div>
+                                    </li>
+
+                                    <li>
+                                        <div className="nh-progress nh-progress-circle" data-progress="70"></div>
+                                        <div className="pr-skill-name">Redux</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> */}
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="progress-title">
+                            <h3>HTML</h3>
+                            <div className="progress">
+                                <div className="progress-bar" style={{width:"65%", backgroundColor:"#ef2d56"}}>
+                                    <div className="progress-value">65%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="progress-title">
+                            <h3>CSS</h3>
+                            <div className="progress">
+                                <div className="progress-bar"style= {{width:"85%",backgroundColor:'#FF9900'}}>
+                                    <div className="progress-value">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="progress-title">
+                            <h3>Javascript</h3>
+                            <div className="progress">
+                                <div className="progress-bar"  style={{ width: "80%",backgroundColor:"#82B700"  }}>
+                                    <div className="progress-value">80%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="progress-title">
+                            <h3>React</h3>
+                            <div className="progress">
+                                <div className="progress-bar"    style={{ width: "75%",backgroundColor:"#00EBDD"  }}>
+                                    <div className="progress-value">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
 
         </div>
     );
