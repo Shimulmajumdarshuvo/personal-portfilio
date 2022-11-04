@@ -16,7 +16,7 @@ const Projects = () => {
         <div className='HeadService'>
             <div className='container '>
 
-                <div className='w-25 d-flex text-center container my-1'>
+                <div className='HeadTitle'>
                     <h2 className=' header' >My Projects </h2>
 
                 </div>

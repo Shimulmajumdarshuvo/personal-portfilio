@@ -15,7 +15,7 @@ import SkillSection from '../SkillSection/SkillSection';
 
 const Home = () => {
     return (
-        <div>
+        <div className='Total-section' style={{ backgroundColor: "#151726" }}>
 
             <About></About>
             <AboutWork></AboutWork>
@@ -24,10 +24,8 @@ const Home = () => {
             <Education></Education>
             <DoWorking></DoWorking>
             <Projects></Projects>
-            
             <WorkService></WorkService>
             <Review></Review>
-            
             <Contact></Contact>
 
 

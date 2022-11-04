@@ -1,16 +1,45 @@
-.header {
+.HeadTitle {
 
+    text-align: center;
+
+}
+
+.HeadTitle h2 {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    border-bottom: 2px solid rgb(24, 8, 116);
-    margin-bottom: 30px;
+}
+
+.header {
+    /* margin: 0 auto;
+    margin-right: 40px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; */
+
+    padding: 20px 0;
+    color: #9ca6c5;
+
+}
+
+.ExHead {
+    background: #151726;
 }
 
 .stylePart {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card-body {
+    background-color: rgb(156, 196, 183);
+
+}
+
+.card-body:hover {
+    background-color: rgb(191, 207, 209);
 }
 
 .stylePart h4 {

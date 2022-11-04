@@ -5,7 +5,7 @@ import './Education.css';
 const Education = () => {
     return (
         <div className='container head'>
-            <div className='w-25 d-flex text-center container'>
+            <div className='HeadTitle'>
                 <h2 className=' header' >Education </h2>
 
             </div>
