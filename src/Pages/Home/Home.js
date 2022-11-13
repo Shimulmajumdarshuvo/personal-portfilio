@@ -12,13 +12,16 @@ import WorkService from '../Service/WorkService';
 import Review from '../Review/Review';
 
 import SkillSection from '../SkillSection/SkillSection';
+import DetailsAbut from '../DetailsAbout/DetailsAbut';
 
 const Home = () => {
     return (
         <div className='Total-section' style={{ backgroundColor: "#232a34" }}>
 
             <About></About>
+            <DetailsAbut></DetailsAbut>
             <AboutWork></AboutWork>
+
             <SkillSection></SkillSection>
             <Experience></Experience>
             <Education></Education>

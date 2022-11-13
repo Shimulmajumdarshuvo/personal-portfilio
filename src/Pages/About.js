@@ -3,6 +3,12 @@ import { Typewriter } from 'react-simple-typewriter';
 import { useTypewriter } from 'react-simple-typewriter'
 import './About.css'
 import { FaFacebookSquare, FaGithubSquare, FaInvision, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { ImLocation2 } from "react-icons/im";
+import { FcCallback, FcLink } from "react-icons/fc";
+
+import { MdOutgoingMail } from "react-icons/md";
+import { RiContactsFill } from "react-icons/ri";
+
 
 const About = () => {
     const { } = useTypewriter({
@@ -37,15 +43,15 @@ const About = () => {
                                 />
                             </span>
                         </h4>
-                        <p className='aboutContent text slide-left'>I am a MERN stack web developer and programmer.
-                            I work as a freelance web developer for clients across the globe with great
-                            product delivery.
-                            Skilled in HTML, CSS, Bootstrap, TailwindCSS, Javascript(ES6), and MERN
-                            (Mongo DB, Express, React, Node) stack, I also have sound knowledge
-                            of Data Structures and Algorithms with great problem-solving capabilities.
+                        <p className='aboutContent text slide-left'>
 
-                            I also bring with me some fresh ideas and I am confident you will
-                            find many of them to be quite useful and innovative 🙂🙂🙂.</p>
+                            <span><ImLocation2></ImLocation2></span>   Khulna Bangladesh <br />
+                            <span><FcCallback></FcCallback></span>  01303461237 <br />
+                            <span><MdOutgoingMail></MdOutgoingMail></span>   shimulmajumdar906@gmail.com <br />
+                            <span><FcLink></FcLink></span>  inkedin.com/in/shimul-majumdar-a4ab4820b/
+
+
+                        </p>
                         <div className='aboutIcon ICON slide-left'>
                             <span><FaFacebookSquare></FaFacebookSquare></span>
                             <span><FaGithubSquare></FaGithubSquare></span>
@@ -56,8 +62,8 @@ const About = () => {
                         <br />
 
                         <div className="d-print-none links  slide-left" >
-                            <a className="btns  " href="https://drive.google.com/file/d/1O_LJnko1vwiZhzrC5LRzvtxFBshS9fl_/view?fbclid=IwAR3nfpIiz6XCR3APrlWd4cvfLxT2PssHt57fWX9BewVERc0w3Sk2TnsUHVM" target="_blank/">Download Resume</a>
-                            <a className="btns  " href="#contact">Hire Me</a></div>
+
+                            <a className="btns  " href="#contact">Contact Me <span><RiContactsFill></RiContactsFill></span></a></div>
                     </div>
 
                 </div>
