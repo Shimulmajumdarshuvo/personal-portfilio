@@ -27,7 +27,7 @@ const AboutWork = () => {
                         </p>
                     </div>
                     <div className="sectionMenu">
-                        <h1 className='text-info'><GiSecurityGate></GiSecurityGate></h1>
+                        <h1 ><GiSecurityGate></GiSecurityGate></h1>
                         <h2>Security & Safety</h2>
                         <p>
                             Get complete security website ans safe your all data and information.
@@ -45,7 +45,7 @@ const AboutWork = () => {
                 <div className="subMain2">
                     <div className='sub-img'>
                         <h3 className='text-center pt-4'>ABOUT MY WORK</h3>
-                        <img src="https://acrorma.com/assets/images/24-h-img.png" alt="" />
+                        <img src="https://www.westend61.de/images/0000719234pw/young-man-at-office-desk-thinking-UUF007025.jpg" alt="" />
                     </div>
                     <div className='work-Section'>
                         <h2>Working On:</h2>

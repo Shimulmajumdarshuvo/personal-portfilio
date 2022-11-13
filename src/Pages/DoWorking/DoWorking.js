@@ -12,7 +12,7 @@ import { MdWeb } from "react-icons/md";
 const DoWorking = () => {
     return (
         <div className='working-sec'>
-            <div className='text-center text-info'>
+            <div className='WorkTitle'>
                 <h2>HOW DO I WORK</h2>
                 <h3><GiClockwork></GiClockwork></h3>
 

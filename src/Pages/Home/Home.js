@@ -15,7 +15,7 @@ import SkillSection from '../SkillSection/SkillSection';
 
 const Home = () => {
     return (
-        <div className='Total-section' style={{ backgroundColor: "#151726" }}>
+        <div className='Total-section' style={{ backgroundColor: "#232a34" }}>
 
             <About></About>
             <AboutWork></AboutWork>

@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar className='navbar-part text-info' collapseOnSelect expand="lg" sticky='top' >
                 <Container className='nav-bar '>
                     <Navbar.Brand as={Link} to="/">
-                        <img width={140} height={70} src="https://i.ibb.co/1KbY4x2/shimul-majumdar-1.png" alt="" />
+                        <img width={140} height={70} src="https://i.ibb.co/nBv1Xj8/shimul-majumdar-1-removebg-preview.png" alt="" />
 
                     </Navbar.Brand>
 
@@ -20,12 +20,12 @@ const Header = () => {
                         <Nav className="me-auto  ">
                         </Nav>
                         <Nav>
-                            <Nav.Link href='#about'>About Me</Nav.Link>
-                            <Nav.Link href='#skill'>Skill</Nav.Link>
-                            <Nav.Link href="#experience">Experience</Nav.Link>
-                            <Nav.Link href="#education">Education</Nav.Link>
-                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                            <Nav.Link className='text-white' href='#about'>About Me</Nav.Link>
+                            <Nav.Link className='text-white' href='#skill'>Skill</Nav.Link>
+                            <Nav.Link className='text-white' href="#experience">Experience</Nav.Link>
+                            <Nav.Link className='text-white' href="#education">Education</Nav.Link>
+                            <Nav.Link className='text-white' as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='text-white' href="#contact">Contact</Nav.Link>
 
 
                         </Nav>

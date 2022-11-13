@@ -1,5 +1,6 @@
 .Review-Main {
-    background-color: #dfe9ec9d;
+    background-color: #232a34;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -17,9 +18,9 @@
 
 }
 
-.subReview {
+/* .subReview {
     box-shadow: 5px 10px 18px #888888;
-}
+} */
 
 
 

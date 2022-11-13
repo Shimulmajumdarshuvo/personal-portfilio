@@ -1,8 +1,13 @@
 .TopService {
-    background: lightcyan;
-    padding: 25px 0;
+    background: #232a34;
+    padding: 55px 0;
     text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
 }
+
+
+
 
 .mainService {
     display: grid;
@@ -13,7 +18,8 @@
 }
 
 .subService {
-    border: 2px solid rgb(183, 223, 230);
+    border: 2px solid #2d343e;
+    background: #2d343e;
     border-radius: 5px;
 
 }

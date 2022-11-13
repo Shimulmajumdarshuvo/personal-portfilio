@@ -19,12 +19,12 @@ const About = () => {
                         <div className="avatar hover-effect  images shadow-sm p-1"><img src="https://i.ibb.co/MphYx5g/personalimg.png" width="250" height="270" alt='' /></div>
                     </div>
                     <div className="col-lg-8 col-md-7 text-center text-md-start">
-                        <h2 style={{ color: '#000024' }} >Shimul Majumdar Shuvo</h2>
+                        <h2 style={{ color: 'white' }} >Shimul Majumdar Shuvo</h2>
                         <h4 >
 
 
 
-                            <span style={{ color: '#27002E', fontWeight: 'bold' }}>
+                            <span style={{ color: 'white', fontWeight: 'bold' }}>
                                 <Typewriter
                                     loop
                                     cursor
@@ -37,7 +37,7 @@ const About = () => {
                                 />
                             </span>
                         </h4>
-                        <p className='text slide-left'>I am a MERN stack web developer and programmer.
+                        <p className='aboutContent text slide-left'>I am a MERN stack web developer and programmer.
                             I work as a freelance web developer for clients across the globe with great
                             product delivery.
                             Skilled in HTML, CSS, Bootstrap, TailwindCSS, Javascript(ES6), and MERN

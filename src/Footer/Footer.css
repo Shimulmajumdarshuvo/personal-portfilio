@@ -1,15 +1,21 @@
+.HeadFooter {
+    background-color: #0c1f34;
+}
+
 .footerPart {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #0c1f34;
-    color: aliceblue;
-    padding-top: 3%;
 
+    color: aliceblue;
+    padding-top: 2%;
+    width: 85%;
+    margin: 0 auto;
+    grid-gap: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .fSection {
-    padding: 20px 20px;
+    padding: 20px 0;
     margin-left: 5%;
 }
 

@@ -4,11 +4,11 @@
 }
 
 .about {
-    background: #dde1e7;
+    background: #232a34;
 }
 
 .text {
-    color: rgb(2, 32, 32);
+    color: rgb(167, 197, 197);
     padding-bottom: 10px;
 }
 
@@ -21,7 +21,7 @@
 .images img {
 
 
-    border: 1px solid rgb(248, 247, 245);
+    border: 1px solid #232a34;
     color: aqua;
     border-radius: 50%;
 
@@ -29,41 +29,56 @@
 
 .aboutIcon span {
     font-size: 20px;
-    border: 1 px solid rosybrown;
-    margin: 5px;
+    /* border: 1 px solid rgb(252, 248, 248); */
+    border: .3px solid rgba(255, 255, 255, 0.747);
+    margin: 7px;
     border-radius: 50%;
-    padding-top: 4px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    background: #dde1e7;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+
     font-weight: bold;
-    color: rgb(9, 115, 148);
-    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    color: rgb(253, 251, 251);
+
 }
 
 .aboutIcon span:hover {
 
     color: rgb(0, 32, 51);
-    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+    background-color: white;
 
+
+}
+
+.aboutContent {
+    color: rgb(238, 228, 228);
 }
 
 .btns {
 
+
+
     border: 1 px solid rosybrown;
-    padding: 10px 5px;
-    border-radius: 7px;
-    background: #dde1e7;
+    /* padding: 10px 15px; */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    background: #2ca46d;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0px 30px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(0, 32, 51);
+
+    color: rgb(202, 214, 221);
     margin: 20px;
-    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
+
 }
 
 .btns:hover {
-    color: rgb(9, 115, 148);
+    color: rgb(16, 135, 172);
+    background: white;
     box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
 
 }

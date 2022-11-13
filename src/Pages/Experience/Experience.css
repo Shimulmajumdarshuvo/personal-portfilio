@@ -19,12 +19,12 @@
     text-transform: uppercase; */
 
     padding: 20px 0;
-    color: #9ca6c5;
+    color: #c4cadb;
 
 }
 
 .ExHead {
-    background: #151726;
+    background: #232a34;
 }
 
 .stylePart {
@@ -34,16 +34,18 @@
 }
 
 .card-body {
-    background-color: rgb(156, 196, 183);
+    background-color: #2d343e;
+
+    color: rgba(255, 255, 255, 0.76);
 
 }
 
-.card-body:hover {
-    background-color: rgb(191, 207, 209);
-}
+/* .card-body:hover {
+    background-color: #2f3846ee;
+} */
 
 .stylePart h4 {
-    color: #483D8B;
+    color: #d7d4e7;
 }
 
 
@@ -52,15 +54,15 @@
     text-align: center;
     position: relative;
     font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
-    color: #000024;
+    color: #2ca46d;
 
     transition: .5s;
 }
 
 .icons:hover {
-    color: #010e38;
+    color: #1f398dfb;
     transform: scale(.8);
 }

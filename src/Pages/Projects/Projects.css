@@ -1,5 +1,5 @@
 .HeadService {
-    background: #dde1e7;
+    background: #232a34;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -29,7 +29,7 @@
 
 }
 
-@media only screen and (min-width:577px) and (max-width:992px) {
+@media only screen and (min-width:570px) and (max-width:992px) {
     .services-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
