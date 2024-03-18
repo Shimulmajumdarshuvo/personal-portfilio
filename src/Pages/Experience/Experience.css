@@ -1,48 +1,22 @@
-.HeadTitle {
 
-    text-align: center;
-
+.ExHead{
+background-color: #FAFAFB;
+padding-bottom: 12px;
+    
 }
-
-.HeadTitle h2 {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.header {
-    /* margin: 0 auto;
-    margin-right: 40px;
-    padding-right: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase; */
-
-    padding: 20px 0;
-    color: #c4cadb;
-
-}
-
-.ExHead {
-    background: #232a34;
-}
-
 .stylePart {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.card-body {
-    background-color: #2d343e;
-
-    color: rgba(255, 255, 255, 0.76);
-
+.ExperienceDiv{
+    border: none !important;
+    border-radius: 20px;
 }
-
-/* .card-body:hover {
-    background-color: #2f3846ee;
-} */
+.ExperienceDiv h4{
+    color: rgb(6, 119, 113) !important;
+}
 
 .stylePart h4 {
     color: #d7d4e7;
@@ -63,6 +37,6 @@
 }
 
 .icons:hover {
-    color: #1f398dfb;
+    color: rgb(6, 119, 113);
     transform: scale(.8);
 }

@@ -3,12 +3,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.DetailsAbout {
-    background: #232a34;
-}
+
 
 .text {
-    color: rgb(167, 197, 197);
+    
     padding-bottom: 10px;
 }
 
@@ -20,8 +18,7 @@
 
 .images img {
 
-
-    border: 1px solid #232a34;
+    
     color: aqua;
     border-radius: 50%;
 
@@ -51,11 +48,7 @@
 
 }
 
-.AboutContents {
-    color: rgb(238, 228, 228);
-    margin-right: 13%;
 
-}
 
 .btns {
 

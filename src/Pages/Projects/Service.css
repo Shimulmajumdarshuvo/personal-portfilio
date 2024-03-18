@@ -4,10 +4,10 @@
     border: 1 px solid #2d343e;
     padding: 10px 5px;
     border-radius: 7px;
-    background: #2d343e;
+    background-color: #FAFAFB;
     position: relative;
     overflow: hidden;
-    color: rgb(183, 199, 209);
+    color: rgb(15, 15, 15);
 }
 
 /* .service:hover {
@@ -16,25 +16,26 @@
 
 } */
 
+
+.servicerBtnDiv{
+    display: flex;
+    justify-content:space-between;
+}
+
 .Butns {
 
-    font-size: 15px;
-
+    font-size: 12px;
     border: none;
     color: #fff;
     border-radius: 23px;
-    padding: 10px 11px;
-
-
-
-
+    padding: 5px 8px;
     color: #fff;
     background: #2ca46d;
     border: 2px solid #2ca46d;
     border-radius: 23px;
-    padding: 10px 18px;
+    
     border: none;
-    margin-bottom: 4px;
+   
 
 
 
@@ -94,4 +95,36 @@
     padding: 10px 18px;
     border: none;
     margin-bottom: 4px;
+}
+
+
+.portfolio_wrapper .card {
+    height: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    border: 1px solid #FD4766;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.portfolio_wrapper .card span {
+    transition: background-position 4s ease-in-out 0s;
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+}
+
+.portfolio_wrapper .card:hover span {
+    background-position: bottom center;
+    box-shadow: 0px 2px 15px 0#fd4766;
+}
+
+.card.p-0:hover {
+    box-shadow: 0 0 15px 0px #fd4766;
+}
+
+span.project h2 {
+    width: 100%;
+    margin-bottom: 35px;
 }

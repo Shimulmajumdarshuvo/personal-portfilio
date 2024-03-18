@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
-    width: 87%;
+   
     margin: 15px auto;
     grid-gap: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,7 +16,7 @@
 .WorkTitle h2 {
     font-size: 35px;
     font-weight: 600;
-    color: white;
+    
 }
 
 .WorkTitle h3 {
@@ -25,13 +25,13 @@
 }
 
 .working-sec {
-    background: #232a34;
+   
     padding: 15px 0;
 }
 
 .subWork {
-    border: 1px solid #2d343e;
-    background: #2d343e;
+    
+    background: #e0e4e9;
     padding: 12px;
     border-radius: 8px;
 
@@ -44,13 +44,13 @@
 
 .subWork h2 {
     font-size: 26px;
-    color: rgb(235, 236, 252);
+    color: rgb(10, 10, 10);
     font-family: 'Quicksand', sans-serif;
 }
 
 .subWork p {
     font-family: 'Quicksand', sans-serif;
-    color: rgb(235, 236, 252);
+    color: rgb(15, 15, 15);
 }
 
 @media only screen and (max-width:980px) {

@@ -1,5 +1,5 @@
 .TopService {
-    background: #232a34;
+    
     padding: 55px 0;
     text-align: center;
     color: white;
@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
-    width: 85%;
+    
     margin: 0 auto;
 }
 

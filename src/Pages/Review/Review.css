@@ -1,5 +1,5 @@
 .Review-Main {
-    background-color: #232a34;
+    background-color: #e7ecf1;
     font-family: 'Quicksand', sans-serif;
 
 }
@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
-    width: 85%;
+    
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
@@ -18,9 +18,9 @@
 
 }
 
-/* .subReview {
+.subReview {
     box-shadow: 5px 10px 18px #888888;
-} */
+}
 
 
 
@@ -54,7 +54,7 @@
 
 .client h2 {
     margin-top: 5px;
-    margin-left: 5px;
+   
     font-size: 25px;
     color: rgba(250, 235, 215, 0.575);
 }
@@ -102,7 +102,7 @@
 
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:550px) {
     .review {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
