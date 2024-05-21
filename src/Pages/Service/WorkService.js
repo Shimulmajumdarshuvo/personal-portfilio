@@ -35,7 +35,7 @@ const WorkService = () => {
 						</span>
 					</div>
 
-					<h2>2+</h2>
+					<h2>4+</h2>
 					<p>Years of Experience</p>
 				</div>
 				<div className="subService ">

@@ -22,14 +22,14 @@ const About = () => {
 
 	return (
 		<div className="about">
-			<div id="about" className="container about-part cover-bg p-3 p-lg-4 ">
-				<div className="row">
-					<div className="col-lg-4 col-md-5">
+			<div id="" className="about-part  p-3 p-lg-4 ">
+				<div className="row ">
+					<div className="col-lg-4 col-md-5 ">
 						<div className="avatar hover-effect  images   animate__animated  animate__backInLeft">
 							<img
 								src="https://i.ibb.co/qDGDyVr/Whats-App-Image-2024-03-05-at-11-22-15-PM.jpg"
-								width="250"
-								height="270"
+								width="290"
+								height="320"
 								alt=""
 							/>
 						</div>
@@ -48,7 +48,7 @@ const About = () => {
 									delaySpeed={1000}
 									words={[
 										"MERN Stack Developer",
-										"React Developer",
+										"React Web Developer",
 										"Web Designer",
 										"Front End Developer",
 									]}
@@ -74,21 +74,25 @@ const About = () => {
 							inkedin.com/in/shimul-majumdar-a4ab4820b/
 						</p>
 						<div className="HeaderIcons  slide-left">
-							<span>
-								<FaFacebookSquare></FaFacebookSquare>
-							</span>
-							<span>
-								<FaGithubSquare></FaGithubSquare>
-							</span>
+							<a href="https://www.facebook.com/shimulmajumdar.shuvo">
+								<span>
+									<FaFacebookSquare></FaFacebookSquare>
+								</span>
+							</a>
+							<a href="https://github.com/Shimulmajumdarshuvo">
+								<span>
+									<FaGithubSquare></FaGithubSquare>
+								</span>
+							</a>
+
 							<span>
 								<FaTwitter></FaTwitter>
 							</span>
-							<span>
-								<FaInvision></FaInvision>
-							</span>
-							<span>
-								<FaTelegram></FaTelegram>
-							</span>
+							<a href="https://www.linkedin.com/in/shimul-majumdar-a4ab4820b/">
+								<span>
+									<FaInvision></FaInvision>
+								</span>
+							</a>
 						</div>
 						<br />
 

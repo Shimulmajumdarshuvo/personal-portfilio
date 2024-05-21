@@ -1,33 +1,42 @@
 .head {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Josefin Sans',
+        sans-serif;
+       
 
+}
+.card{
+    border: none;
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
 }
 
 .educationHead {
     padding-bottom: 8px;
 }
-
+.wording-education-Img{
+    height: 45px;
+    width: 45px;
+}
 .card-part {
     padding: 1.5rem;
-    border-left: 3px solid rgb(24, 103, 105);
+    border-left: 3px solid rgb(183, 199, 209);
     position: relative;
     margin-left: 15px;
 
 }
 
 .card-part p {
-    color: rgb(27, 29, 31);
+    color: rgb(24, 25, 27);
     text-align: start;
     border-bottom: 2px solid rgb(183, 199, 209);
 
 }
 
 .card-part h6 {
-    color: rgb(39, 43, 46);
+    color: rgb(7, 9, 6);
     text-align: start;
 }
 
 .card-part h5 {
-    color: rgb(80, 123, 150);
+    color: rgb(7, 8, 8);
     text-align: start;
 }

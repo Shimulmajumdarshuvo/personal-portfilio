@@ -16,8 +16,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "95%", backgroundColor: "#CB2DF6" }}>
-									<div className="progress-value">95%</div>
+									style={{ width: "85%", backgroundColor: "#CB2DF6" }}>
+									<div className="progress-value">85%</div>
 								</div>
 							</div>
 						</div>
@@ -26,8 +26,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "85%", backgroundColor: "#77183C" }}>
-									<div className="progress-value">85%</div>
+									style={{ width: "80%", backgroundColor: "#77183C" }}>
+									<div className="progress-value">80%</div>
 								</div>
 							</div>
 						</div>
@@ -36,8 +36,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "95%", backgroundColor: "blue" }}>
-									<div className="progress-value">95%</div>
+									style={{ width: "90%", backgroundColor: "blue" }}>
+									<div className="progress-value">90%</div>
 								</div>
 							</div>
 						</div>
@@ -56,8 +56,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "80%", backgroundColor: "#096363" }}>
-									<div className="progress-value">80%</div>
+									style={{ width: "75%", backgroundColor: "#096363" }}>
+									<div className="progress-value">75%</div>
 								</div>
 							</div>
 						</div>
@@ -66,8 +66,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "85%", backgroundColor: "#00EBDD" }}>
-									<div className="progress-value">85%</div>
+									style={{ width: "75%", backgroundColor: "#00EBDD" }}>
+									<div className="progress-value">75%</div>
 								</div>
 							</div>
 						</div>
@@ -76,8 +76,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "80%", backgroundColor: "violet " }}>
-									<div className="progress-value">80%</div>
+									style={{ width: "75%", backgroundColor: "violet " }}>
+									<div className="progress-value">75%</div>
 								</div>
 							</div>
 						</div>

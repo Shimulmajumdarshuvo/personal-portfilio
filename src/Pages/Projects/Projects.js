@@ -11,7 +11,7 @@ import "./Projects.css";
 
 const Projects = () => {
 	return (
-		<section className=" portfolio_wrapper">
+		<section id="project" className=" portfolio_wrapper">
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-12 mb-4">

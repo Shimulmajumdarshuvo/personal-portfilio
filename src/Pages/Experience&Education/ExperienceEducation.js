@@ -35,7 +35,7 @@ export default function TestimonialCertificate() {
 								onClick={() => handleButtonClick(item.element, item.label)}
 								className={`${
 									selectedButtonLabel === item.label
-										? " scale-105 bg-violet-600 text-white hover:bg-violet-700"
+										? " scale-105 bg-6244C5 text-white hover:bg-violet-700"
 										: "bg-slate-200 hover:bg-slate-300"
 								} mx-2 py-2 px-3`}>
 								{item.label}
@@ -44,7 +44,7 @@ export default function TestimonialCertificate() {
 					})}
 				</div>
 			</div>
-			<div className="mx-auto py-2">
+			<div id="experience" className="mx-auto py-2">
 				{selectedDetail && <div>{selectedDetail}</div>}
 			</div>
 		</>

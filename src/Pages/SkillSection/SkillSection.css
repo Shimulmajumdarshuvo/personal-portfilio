@@ -1,19 +1,10 @@
 /* start css style */
-
 .Skill-Sections {
-
     display: grid;
     place-items: center;
-    
     font-family: "Roboto", sans-serif;
     width: 100%;
-    
 }
-
-
-
-
-
 .progress-title {
     width: 90%;
     height: auto;
@@ -27,11 +18,11 @@
 }
 
 .progress {
-    height: 10px;
-    background: #abacb3;
+    height: 8px;
+    background: #e9eaec;
     border-radius: 20px;
-    border: 1px solid rgba(143, 183, 199, 0.658);
-    box-shadow: 0 2px 2px #b6b0b0;
+    border: 1px solid rgba(235, 238, 240, 0.945);
+    box-shadow: 0 2px 2px #fbffff;
     margin-bottom: 22px;
     overflow: visible;
     position: relative;
@@ -39,23 +30,23 @@
 
 .progress .progress-bar {
     border-radius: 20px;
-    border: 1px solid #c5baba;
+    border: 1px solid #eef3f3;
     animation: animate-positive 2s;
 }
 
 .progress .progress-value {
-    width: 65px;
-    height: 25px;
-    line-height: 25px;
-    background: #171b3c;
-    font-size: 15px;
+    width: 55px;
+    height: 23px;
+    line-height: 20px;
+    background: #2a4b5e;
+    font-size: 11px;
     color: #fff;
     border-radius: 0 0 15px 15px;
-    border: 1px solid #000;
+    border: 1px solid #fdfdfd;
     border-top: none;
-    box-shadow: 0 2px 2px #4f4c4c;
+    box-shadow: 0 2px 2px #f3eeee;
     position: absolute;
-    bottom: -25px;
+    bottom: -22px;
     right: 60px;
 }
 

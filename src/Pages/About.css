@@ -1,43 +1,44 @@
+.about {
+        font-family: "Open Sans", sans-serif;
+    width: 85%;
+    margin: 65px auto;
+}
 .about-part {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
-.about {
-   
-    width: 85%;
-    margin: 0 auto;
-}
+
 .images {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 .HeaderContent h3{
     color: #6244C5 !important;
+    padding-top: 10px;
+        font-family: "Open Sans", sans-serif;
 }
 .HeaderContent h2{
     color: #17112b !important;
     font-size: 40px;
     
 }
-
-.images img {
-    
+.images img { 
     border-radius: 50%;
+    
 }
 .HeaderIcons span{
-   font-size: 25px;
- 
-   border: 1px solid wheat;
+   border: 1px solid rgb(248, 252, 252);
     margin: 3.5px;
     border-radius: 6px;
     padding: 5px 7px;
     font-size: 22px;
     color: rgb(1, 8, 44);
-
     background: #dde1e7;
-    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+    box-shadow: inset -3px -3px 7px #ffffffee, inset 3px 3px 5px rgba(94, 104, 121, .288);
   
 }
 .HeaderIcons span:hover {
@@ -48,9 +49,9 @@
 }
 
 .ButtonsContact {
-    border: 1 px solid rosybrown;
-    background: #2ca46d;
-    padding: 10px 30px;
+    border: 1 px solid rgb(247, 255, 254);
+    background: #6244C5;
+    padding: 14px 30px;
     border-radius: 30px 30px 0px 30px;
     font-weight: bold;
     text-decoration: none;

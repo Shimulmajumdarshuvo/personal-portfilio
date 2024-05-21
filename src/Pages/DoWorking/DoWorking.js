@@ -1,26 +1,25 @@
 import React from "react";
 import "./DoWorking.css";
 import "animate.css";
-import { GiDiscussion } from "react-icons/gi";
-import { SiAltiumdesigner, SiHoudini } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa";
-import { GiMiniSubmarine, GiClockwork } from "react-icons/gi";
-import { MdWeb } from "react-icons/md";
+import img1 from "../../projectImage/IMG-1.png";
+import img2 from "../../projectImage/IMG-2.png";
+import img3 from "../../projectImage/IMG3.png";
+import img4 from "../../projectImage/IMG4.png";
+import img5 from "../../projectImage/IMG5.png";
+import img6 from "../../projectImage/IMG6.png";
 
 const DoWorking = () => {
 	return (
-		<div className="container working-sec">
-			<div className="WorkTitle subtitle">
-				<h2 className="subtitle">HOW DO I WORK</h2>
-				<h3>
-					<GiClockwork></GiClockwork>
-				</h3>
+		<div className=" working-sec">
+			<div className="WorkTitle ">
+				<h2 className="">HOW DO I WORK</h2>
 			</div>
 			<div className="doWork">
 				<div className="subWork animate__animated animate__zoomIn">
-					<h1>
-						<GiDiscussion></GiDiscussion>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img1} alt="" className="img-fluid" />
+					</div>
 					<h2>01. Discussion</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important
@@ -29,9 +28,10 @@ const DoWorking = () => {
 					</p>
 				</div>
 				<div className="subWork animate__animated animate__zoomIn">
-					<h1>
-						<SiHoudini></SiHoudini>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img2} alt="" className="img-fluid" />
+					</div>
 					<h2>02. Planing</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important
@@ -40,9 +40,10 @@ const DoWorking = () => {
 					</p>
 				</div>
 				<div className="subWork animate__animated animate__zoomIn">
-					<h1>
-						<SiAltiumdesigner></SiAltiumdesigner>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img3} alt="" className="img-fluid" />
+					</div>
 					<h2>03. Design</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important
@@ -51,9 +52,10 @@ const DoWorking = () => {
 					</p>
 				</div>
 				<div className="subWork animate__animated animate__zoomIn">
-					<h1>
-						<FaLaptopCode></FaLaptopCode>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img4} alt="" className="img-fluid" />
+					</div>
 					<h2>04. Coding</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important
@@ -62,9 +64,10 @@ const DoWorking = () => {
 					</p>
 				</div>
 				<div className="subWork animate__animated animate__zoomIn">
-					<h1>
-						<GiMiniSubmarine></GiMiniSubmarine>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img5} alt="" className="img-fluid" />
+					</div>
 					<h2>05. Submit for Review</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important
@@ -73,9 +76,10 @@ const DoWorking = () => {
 					</p>
 				</div>
 				<div className="subWork hover:animate__animated animate__zoomIn">
-					<h1>
-						<MdWeb></MdWeb>
-					</h1>
+					<div className="wording-demo-Img">
+						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+						<img src={img6} alt="" className="img-fluid" />
+					</div>
 					<h2>06. Website is Ready!</h2>
 					<p>
 						To understand the projects needs & requirements. It's very important

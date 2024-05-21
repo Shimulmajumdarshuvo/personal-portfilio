@@ -13,10 +13,24 @@
     grid-gap: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.working-logo-footer {
+    width: 140px;
+    padding-bottom: 20px;
+}
 
 .fSection {
     padding: 20px 0;
     margin-left: 5%;
+}
+.fSection h6{
+    color: rgb(220, 224, 230);
+    font-style: oblique;
+    
+}
+.fSection h6:hover{
+    color: rgb(219, 72, 4);
+    margin-left: 4px;
+    cursor: pointer;
 }
 
 .fSection p {
@@ -29,7 +43,6 @@
     padding: 5px 7px;
     font-size: 22px;
     color: rgb(1, 8, 44);
-
     background: #dde1e7;
     box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
 

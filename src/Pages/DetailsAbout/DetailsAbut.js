@@ -8,15 +8,11 @@ const DetailsAbut = () => {
 			<div className="DetailsAbout">
 				<div id="about" className="container about-part cover-bg p-3 p-lg-4 ">
 					<div className="row">
-						<div className="col-lg-8 col-md-7 text-center text-md-start">
-							<h2
-								className="aboutIcon text  slide-left"
-								style={{ color: "#6244C5" }}>
-								About Me
-							</h2>
+						<div className="col-lg-8 col-md-7 text-center text-md-start gap-2">
+							<h2 className="aboutIcon slide-left">About Me</h2>
 
 							<p className="AboutContents ICON slide-left py-2 ">
-								I am a MERN stack web developer and programmer. I work as a
+								I am a Front End web Developer and Programmer. I work as a
 								freelance web developer for clients across the globe with great
 								product delivery. Skilled in HTML, CSS, Bootstrap, TailwindCSS,
 								Javascript(ES6), and MERN (Mongo DB, Express, React, Node)

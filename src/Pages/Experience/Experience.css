@@ -1,42 +1,28 @@
 
-.ExHead{
-background-color: #FAFAFB;
-padding-bottom: 12px;
-    
-}
-.stylePart {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   .team_wrapper{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .team_wrapper .card {
+       padding: 1.25rem;
+       border: none;
+        box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+   }
 
-}
+   .team_wrapper .card:hover {
+       -webkit-transform: translateY(-0.625rem);
+       transform: translateY(-0.625rem);
+        -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            
+   }
 
-.ExperienceDiv{
-    border: none !important;
-    border-radius: 20px;
-}
-.ExperienceDiv h4{
-    color: rgb(6, 119, 113) !important;
-}
+   .team_wrapper .team-img {
+       margin: 0 auto;
+   }
 
-.stylePart h4 {
-    color: #d7d4e7;
-}
+   
 
+   
 
-
-.icons {
-    text-align: center;
-    position: relative;
-    font-size: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-    color: #2ca46d;
-
-    transition: .5s;
-}
-
-.icons:hover {
-    color: rgb(6, 119, 113);
-    transform: scale(.8);
-}
+  

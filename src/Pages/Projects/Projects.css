@@ -1,38 +1,35 @@
+.portfolio_wrapper{
+    margin: 60px auto;
+}
 .HeadService {
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #131111da;
+        font-size: xx-large;
+        font-weight: bold;
+    text-align: center;color: rgb(1, 11, 17);
 }
-
-.services-title {
-    text-align: center;
-    color: rgb(1, 11, 17);
-}
-
-
 .services-container {
     display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
         width: 90%;
         margin: 25px auto;
-
 }
-
-
-
 .subtitle{
     font-size: 36px;
     font-weight: bold;
+    color: #131111da;
+    font-size: xx-large;
+    
 
 }
-
 .portfolio_wrapper .card {
     height: 100%;
     min-height: 350px;
     overflow: hidden;
-    border: 1px solid #1e2224;
+    border: 1px solid #dee5e9;
     cursor: pointer;
     transition: all .4s;
+    margin-top: 40px;
 }
 
 .portfolio_wrapper .card span {
@@ -49,26 +46,13 @@
 }
 
 .card.p-0:hover {
-    box-shadow: 0 0 15px 0px #1e0536;
+    box-shadow: .5px  2px 5px 1px #e4e8eb;
 }
 
 span.project h2 {
     width: 100%;
     margin-bottom: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* make services responsive */
 
@@ -80,10 +64,17 @@ span.project h2 {
 
 }
 
-@media only screen and (min-width:570px) and (max-width:992px) {
+@media only screen and (min-width:570px) and (max-width:740px) {
     .services-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media only screen and (min-width:740px) and (max-width:992px) {
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }

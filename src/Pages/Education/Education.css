@@ -1,7 +1,8 @@
 
 
 .head {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Josefin Sans',
+        sans-serif;
     
 }
 .educationHead {
@@ -10,7 +11,7 @@
 
 .card-part {
     padding: 1.5rem;
-    border-left: 3px solid rgb(24, 103, 105);
+    /* border-left: 3px solid rgb(243, 247, 247); */
     position: relative;
     margin-left: 15px;
 

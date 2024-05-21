@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-
+import img1 from "../projectImage/procoder-removebg-preview.png";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
@@ -14,12 +14,16 @@ const Header = () => {
 				sticky="top">
 				<Container className="nav-bar ">
 					<Navbar.Brand as={Link} to="/">
-						<img
-							width={160}
-							height={80}
+						<div className="working-logo-nav">
+							{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+							<img src={img1} alt="" className="img-fluid" />
+						</div>
+						{/* <img
+							width={140}
+							height={70}
 							src="https://i.ibb.co/grXrhqj/Black-Gold-White-Luxury-Royal-Crown-Logo-removebg-preview-removebg-preview.png"
 							alt=""
-						/>
+						/> */}
 					</Navbar.Brand>
 
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -36,14 +40,15 @@ const Header = () => {
 							<Nav.Link className="text-white headerNavbar" href="#experience">
 								Experience
 							</Nav.Link>
-							<Nav.Link className="text-white headerNavbar" href="#education">
-								Education
+							<Nav.Link className="text-white headerNavbar" href="#service">
+								Service
 							</Nav.Link>
-							<Nav.Link
-								className="text-white headerNavbar"
-								as={Link}
-								to="/blogs">
-								Blogs
+
+							<Nav.Link className="text-white headerNavbar" href="#project">
+								Project
+							</Nav.Link>
+							<Nav.Link className="text-white headerNavbar" href="#testimonial">
+								Testimonial
 							</Nav.Link>
 							<Nav.Link className="text-white headerNavbar" href="#contact">
 								Contact

@@ -1,12 +1,21 @@
 .navbar-part {
     background-image: linear-gradient(57deg, #f6fcfb, #fafafc);
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    
 }
 .headerNavbar{
-    font-size: 18px !important;
+    font-size: 16px !important;
     padding: 0 18px !important;
     color: black !important;
     box-shadow:1px gray ;
+}
+.headerNavbar:hover{
+    
+    color: #6244C5!important;
+   
+}
+
+.working-logo-nav{
+    width: 140px;
+    padding: 3px 0;
 }

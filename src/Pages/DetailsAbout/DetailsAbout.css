@@ -1,13 +1,13 @@
+.DetailsAbout{
+    margin: 80px auto;
+}
 .about-part {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
 .text {
-    
     padding-bottom: 10px;
+    font-size: 50px !important;
 }
 
 .images {
@@ -15,10 +15,13 @@
     justify-content: center;
     align-items: center;
 }
+.aboutIcon{
+    color:#131111da;
+        font-size: xx-large;
+        font-weight: bold;
+}
 
 .images img {
-
-    
     color: aqua;
     border-radius: 50%;
 

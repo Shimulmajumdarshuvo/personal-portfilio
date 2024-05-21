@@ -1,14 +1,10 @@
 .TopService {
-    
+    margin: 80px auto;
     padding: 55px 0;
     text-align: center;
-    color: white;
+    
     font-family: 'Quicksand', sans-serif;
 }
-
-
-
-
 .mainService {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -18,14 +14,19 @@
 }
 
 .subService {
-    border: 2px solid #2d343e;
-    background: #2d343e;
+   padding: 14px;
+    background: white;
     border-radius: 5px;
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
 
+}
+.subService h2 p{
+    color: black;
 }
 
 .icon {
     font-size: 35px;
+    padding: 12px 0;
     color: rgba(75, 219, 224, 0.692);
 }
 
@@ -33,9 +34,14 @@
     .mainService {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        
 
     }
+}
+@media only screen and (max-width:580px) {
+    .mainService {
+        
+        width: 90%;
 
-
-
+    }
 }

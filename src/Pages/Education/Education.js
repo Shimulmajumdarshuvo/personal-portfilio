@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineCastForEducation } from "react-icons/md";
+import img1 from "../../projectImage/Graduation beautiful logo png - Google Search.png";
 import "./Education.css";
 
 const Education = () => {
@@ -16,8 +16,10 @@ const Education = () => {
 						</h5>
 
 						<h6>
-							{" "}
-							<MdOutlineCastForEducation size="2em" color="#2ca46d" />{" "}
+							<div className="wording-education-Img">
+								{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+								<img src={img1} alt="" className="img-fluid" />
+							</div>
 							Graduation 2023
 						</h6>
 
@@ -31,8 +33,10 @@ const Education = () => {
 							Higher Secondary from Chuknagor College,Chuknagor
 						</h5>
 						<h6>
-							{" "}
-							<MdOutlineCastForEducation size="2em" color="#2ca46d" />{" "}
+							<div className="wording-education-Img">
+								{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
+								<img src={img1} alt="" className="img-fluid" />
+							</div>
 							Graduation 2017
 						</h6>
 						<p className="card-text ">

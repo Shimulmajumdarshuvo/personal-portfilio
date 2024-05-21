@@ -4,8 +4,9 @@ import { BsFillStarFill } from "react-icons/bs";
 
 const Review = () => {
 	return (
-		<div className="">
+		<div id="testimonial">
 			<div className="Review-Main ">
+				<h1>Testimonial</h1>
 				<div className="review container">
 					<div className="subReview">
 						<div className="singleReview-part1"></div>
