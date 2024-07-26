@@ -1,6 +1,6 @@
 
    .team_wrapper{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
    }
    .team_wrapper .card {
@@ -20,7 +20,14 @@
    .team_wrapper .team-img {
        margin: 0 auto;
    }
-
+   .team-info h5{
+    font-size: 24px;
+   }
+   .team-info p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px 6px;
+   }
    
 
    

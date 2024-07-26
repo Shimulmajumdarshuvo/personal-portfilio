@@ -1,17 +1,22 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./AboutWork.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import img1 from "../../projectImage//quality_logo_png_-_Google_Search-removebg-preview.png";
 import img2 from "../../projectImage/intigriti_logo_png_-_Google_Search-removebg-preview.png";
 import img3 from "../../projectImage/security_logo_png_-_Google_Search-removebg-preview.png";
 import img4 from "../../projectImage/support_logo_png_-_Google_Search-removebg-preview.png";
 
 const AboutWork = () => {
+		useEffect(() => {
+			Aos.init({ duration: 3000 });
+		}, []);
 	return (
 		<div className="mainWork">
 			<div className="aboutMain">
 				<div className="subMain">
-					<div className="sectionMenu">
-						<div className="wording-demo-icon">
+					<div className="sectionMenu" data-aos="zoom-in-right">
+						<div className="working-demo-icon">
 							{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
 							<img src={img1} alt="" className="img-fluid" />
 						</div>
@@ -21,8 +26,8 @@ const AboutWork = () => {
 							100% quality & satisfaction before delivering the projects.
 						</p>
 					</div>
-					<div className="sectionMenu">
-						<div className="wording-demo-icon">
+					<div className="sectionMenu" data-aos="zoom-in-up">
+						<div className="working-demo-icon">
 							{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
 							<img src={img2} alt="" className="img-fluid" />
 						</div>
@@ -32,8 +37,8 @@ const AboutWork = () => {
 							and SEO result , Only experienced person can make sure this.
 						</p>
 					</div>
-					<div className="sectionMenu">
-						<div className="wording-demo-icon">
+					<div className="sectionMenu" data-aos="zoom-out-up">
+						<div className="working-demo-icon">
 							{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
 							<img src={img3} alt="" className="img-fluid" />
 						</div>
@@ -43,8 +48,8 @@ const AboutWork = () => {
 							information.
 						</p>
 					</div>
-					<div className="sectionMenu">
-						<div className="wording-demo-icon">
+					<div className="sectionMenu" data-aos="zoom-in-left">
+						<div className="working-demo-icon">
 							{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
 							<img src={img4} alt="" className="img-fluid" />
 						</div>
@@ -55,17 +60,9 @@ const AboutWork = () => {
 						</p>
 					</div>
 				</div>
-				<div className="subMain2">
-					<div className="sub-img">
-						<h3 className="text-center pt-4">ABOUT MY WORK</h3>
-						<img
-							src="https://www.westend61.de/images/0000719234pw/young-man-at-office-desk-thinking-UUF007025.jpg"
-							alt=""
-						/>
-					</div>
+				{/* <div className="subMain2">
 					<div className="work-Section">
-						<h2>Working On:</h2>
-
+						<h2>Working On</h2>
 						<img
 							src="https://i.ibb.co/gVN2pfR/png-clipart-freelancer-freelance-marketplace-logo-job-graphic-designer-design-web-design-text-remove.png"
 							alt=""
@@ -84,7 +81,7 @@ const AboutWork = () => {
 							alt=""
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

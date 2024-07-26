@@ -1,21 +1,74 @@
 .navbar-part {
     background-image: linear-gradient(57deg, #f6fcfb, #fafafc);
     font-family: 'Poppins', sans-serif;
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
     
 }
-.headerNavbar{
-    font-size: 16px !important;
-    padding: 0 18px !important;
-    color: black !important;
-    box-shadow:1px gray ;
-}
-.headerNavbar:hover{
+.headerNavbar {
+    position: relative;
+    color: rgb(6, 8, 46) !important;
+    font-weight: 600 !important;
+    font-size: 18px;
+    margin: 0 6px !important;
+    text-align: center !important;
     
-    color: #6244C5!important;
    
+    /* transition: color 0.3s ease, transform 0.3s ease; */
+}
+/* .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--bg-white);
+    
+    transition: 0.3s ease-in-out;
+} */
+
+.headerNavbar::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #6244C5, #A692F2);
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.headerNavbar:hover {
+    color: #6244C5 !important;
+    transform: scale(1.05);
+}
+
+.headerNavbar:hover::before {
+    width: 100%;
+    left: 0;
 }
 
 .working-logo-nav{
     width: 140px;
     padding: 3px 0;
 }
+/* custom-navbar.css */
+
+.custom-toggle {
+    background-color: #6244C5;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    display: none;
+    border-radius: 5px;
+    /* Hide by default */
+}
+
+/* Show the toggle button only on screens smaller than 992px (Bootstrap's lg breakpoint) */
+@media (max-width: 991.98px) {
+    .custom-toggle {
+        display: block;
+        
+    }
+}
+
+

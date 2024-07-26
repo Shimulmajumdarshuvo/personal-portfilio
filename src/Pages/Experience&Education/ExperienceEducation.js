@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
+import { Button, Row, Col } from "react-bootstrap";
 import Education from "../Education/Education";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import ProfessionalExperience from "../ProfessionalExperience/ProfessionalExperience";
+import "./ExperienceEducation.css";
 
 const elements = [
 	{
@@ -14,6 +18,9 @@ const elements = [
 ];
 
 export default function TestimonialCertificate() {
+		useEffect(() => {
+			Aos.init({ duration: 3000 });
+		}, []);
 	const [selectedDetail, setSelectedDetail] = useState(elements[0].element);
 	const [selectedButtonLabel, setSelectedButtonLabel] = useState(
 		elements[0].label
@@ -23,29 +30,33 @@ export default function TestimonialCertificate() {
 		setSelectedDetail(detailText);
 		setSelectedButtonLabel(label);
 	};
+
 	return (
 		<>
-			{/* add new department  */}
-			<div className="">
-				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 items-center ">
-					{elements.map((item) => {
-						return (
-							<button
-								key={item.label}
+			<div>
+				<Row className="mb-3">
+					{elements.map((item) => (
+						<Col key={item.label} xs={12} md={6} xl={3}>
+							<Button
 								onClick={() => handleButtonClick(item.element, item.label)}
-								className={`${
+								className={`custom-button ${
 									selectedButtonLabel === item.label
-										? " scale-105 bg-6244C5 text-white hover:bg-violet-700"
-										: "bg-slate-200 hover:bg-slate-300"
-								} mx-2 py-2 px-3`}>
+										? "custom-button-selected"
+										: "custom-button-unselected"
+								}`}>
 								{item.label}
-							</button>
-						);
-					})}
-				</div>
-			</div>
-			<div id="experience" className="mx-auto py-2">
-				{selectedDetail && <div>{selectedDetail}</div>}
+							</Button>
+						</Col>
+					))}
+				</Row>
+
+				<Row>
+					<Col>
+						<div id="experience" className="mx-auto py-3" data-aos="zoom-in-left">
+							{selectedDetail && <div>{selectedDetail}</div>}
+						</div>
+					</Col>
+				</Row>
 			</div>
 		</>
 	);

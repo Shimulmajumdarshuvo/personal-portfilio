@@ -4,8 +4,8 @@
 
 .footerPart {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
+    grid-template-columns: repeat(3, 1fr);
+    
     color: aliceblue;
     padding-top: 2%;
     width: 85%;
@@ -21,32 +21,39 @@
 .fSection {
     padding: 20px 0;
     margin-left: 5%;
+    
+}
+.fSection h5{
+   font-size: 18px;
 }
 .fSection h6{
     color: rgb(220, 224, 230);
     font-style: oblique;
+    font-size: 18px;
+    line-height: 26px;
     
 }
 .fSection h6:hover{
-    color: rgb(219, 72, 4);
-    margin-left: 4px;
+    color: #6244C5;
+    margin-left: 2px;
     cursor: pointer;
+    text-decoration: underline;
 }
-
-.fSection p {
-    padding-top: 5%;
+.fSection a{
+    text-decoration: none;
 }
 
 .fSection span {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
     margin: 3.5px;
-    border-radius: 6px;
+    border-radius: 5px;
     padding: 5px 7px;
     font-size: 22px;
     color: rgb(1, 8, 44);
     background: #dde1e7;
     box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
-
-
 }
 
 .fSection span:hover {

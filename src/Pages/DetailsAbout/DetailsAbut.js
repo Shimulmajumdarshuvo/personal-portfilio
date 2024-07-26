@@ -6,24 +6,24 @@ const DetailsAbut = () => {
 	return (
 		<div>
 			<div className="DetailsAbout">
-				<div id="about" className="container about-part cover-bg p-3 p-lg-4 ">
+				<div id="about" className=" about-part cover-bg p-3 p-lg-4 ">
 					<div className="row">
 						<div className="col-lg-8 col-md-7 text-center text-md-start gap-2">
 							<h2 className="aboutIcon slide-left">About Me</h2>
 
 							<p className="AboutContents ICON slide-left py-2 ">
-								I am a Front End web Developer and Programmer. I work as a
-								freelance web developer for clients across the globe with great
-								product delivery. Skilled in HTML, CSS, Bootstrap, TailwindCSS,
-								Javascript(ES6), and MERN (Mongo DB, Express, React, Node)
-								stack, I also have sound knowledge of Data Structures and
-								Algorithms with great problem-solving capabilities. I also bring
-								with me some fresh ideas and I am confident you will find many
-								of them to be quite useful and innovative 🙂🙂🙂.
+								I am a skilled Front-End Web Developer and Programmer with
+								extensive experience in freelance web development for a global
+								clientele, consistently delivering high-quality products. My
+								expertise includes HTML, CSS, Bootstrap, TailwindCSS, JavaScript
+								(ES6), and the MERN (MongoDB, Express, React, Node) stack. I aim
+								to contribute to the creation of engaging and user-friendly web
+								applications while continuously enhancing my technical abilities
+								and growing within the company. I am confident that my fresh
+								ideas and innovative approach will add significant value to your
+								team.
 							</p>
-							{/* <div className='aboutIcon ICON slide-left'>
-                                <h2>About section</h2>
-                            </div> */}
+							
 							<br />
 
 							<div className="d-print-none links mt-1  slide-left">
@@ -37,6 +37,7 @@ const DetailsAbut = () => {
 									</span>
 								</a>
 							</div>
+							<br />
 						</div>
 
 						<div className="col-lg-4 col-md-5">

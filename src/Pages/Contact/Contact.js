@@ -1,9 +1,14 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import img1 from "../../projectImage/login_image_png_-_Google_Search-removebg-preview.png";
 
 const Contact = () => {
+		useEffect(() => {
+			Aos.init({ duration: 3000 });
+		}, []);
 	function sendEmail(e) {
 		e.preventDefault();
 
@@ -86,40 +91,44 @@ const Contact = () => {
 			<div id="contact" className="LoginMainPart">
 				<div className="LoginHead">
 					<div className="subLogin1">
-						<h2>Welcome</h2>
+						<h2 data-aos="fade-left">Welcome</h2>
 						<h4>Let's Work Together</h4>
 						{/* <img src={LoginImg} alt="" /> */}
 
 						{/* <img decoding="async" src="./images/team/team1.png" className="img-fluid"> */}
-						<img src={img1} alt="" className="img-fluid" />
+						<img
+							src={img1}
+							alt=""
+							className="img-fluid"
+							data-aos="zoom-in-up"
+						/>
 					</div>
-					<div className="subLogin2">
+					<div className="subLogin2" data-aos="zoom-in-left">
 						<h1>Contact </h1>
 
 						<div className="LoginPart">
 							<div className="subLogin">
 								<input
-									className="inputB"
+									className=""
 									type="text"
 									placeholder="Enter User Name"
 									name="fname"></input>
 								<br />
 								<input
-									className="inputB"
+									className=""
 									type="text"
 									placeholder="Enter your Email address"
 									name="fname"></input>
 								<br />
 								<label>Message</label>
 								<textarea
-								
 									name="message"
 									rows="4"
 									className="form-control"></textarea>
 							</div>
 						</div>
 
-						<div className="inputHeadButton">
+						<div className="inputHeadButton mt-3">
 							<input className="BTNRegister" type="submit" value="Submit" />
 						</div>
 					</div>

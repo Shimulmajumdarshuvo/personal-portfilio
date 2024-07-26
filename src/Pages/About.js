@@ -6,12 +6,10 @@ import {
 	FaFacebookSquare,
 	FaGithubSquare,
 	FaInvision,
-	FaTelegram,
 	FaTwitter,
 } from "react-icons/fa";
 import { ImLocation2 } from "react-icons/im";
 import { FcCallback, FcLink } from "react-icons/fc";
-
 import { MdOutgoingMail } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
@@ -22,8 +20,8 @@ const About = () => {
 
 	return (
 		<div className="about">
-			<div id="" className="about-part  p-3 p-lg-4 ">
-				<div className="row ">
+			<div id="" className="about-part p-2 ">
+				<div className="row m-3">
 					<div className="col-lg-4 col-md-5 ">
 						<div className="avatar hover-effect  images   animate__animated  animate__backInLeft">
 							<img
@@ -59,7 +57,7 @@ const About = () => {
 							<span>
 								<ImLocation2></ImLocation2>
 							</span>{" "}
-							Khulna Bangladesh <br />
+							Khulna, Bangladesh <br />
 							<span>
 								<FcCallback></FcCallback>
 							</span>{" "}
@@ -68,10 +66,7 @@ const About = () => {
 								<MdOutgoingMail></MdOutgoingMail>
 							</span>{" "}
 							shimulmajumdar906@gmail.com <br />
-							<span>
-								<FcLink></FcLink>
-							</span>{" "}
-							inkedin.com/in/shimul-majumdar-a4ab4820b/
+							
 						</p>
 						<div className="HeaderIcons  slide-left">
 							<a href="https://www.facebook.com/shimulmajumdar.shuvo">

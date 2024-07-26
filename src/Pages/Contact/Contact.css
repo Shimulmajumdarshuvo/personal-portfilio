@@ -1,21 +1,7 @@
 #contact {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Poppins",sans-serif;
 
 }
-.contactSection{
-    background-color: #e7ecf1 !important;
-    
-}
-.LoginMainPart {
-    min-height: 100vh;
-    width: 100%;
-    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('https://img.freepik.com/free-vector/topographic-background_122380-19.jpg?w=2000'); */
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow-x: hidden;
-}
-
 .LoginHead {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,17 +13,20 @@
 .subLogin1 {
     background: #fbfdfd;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .subLogin1 img {
    width: 300px;
+   height: 300px;
    margin-top: 20px;
 }
 
 .subLogin1 h2 {
-
     text-align: center;
-    
     font-style: normal;
     font-weight: 656;
     font-size: 38px;
@@ -47,7 +36,6 @@
 }
 
 .subLogin1 h4 {
-    
     font-style: normal;
     font-weight: 457;
     font-size: 24px;
@@ -56,7 +44,6 @@
     padding:14px 0px;
     color: #33475B;
 }
-
 .subLogin2 {
     background-color: white;
     display: flex;
@@ -64,7 +51,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .subLogin2 h1 {
     text-align: center;
     font-style: normal;
@@ -73,27 +59,11 @@
     line-height: 42px;
     margin-bottom: 30px;
     color: #33475B;
+    border-bottom: 2px solid #33475B;
 }
-
-.RegisterPart {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8px;
-}
-
-input [type=text],
-select {
-    width: 150px;
-
-
-
-
-}
-
 .BTNRegister {
-
     color: white;
-    width: 378px;
+    width: 400px;
     height: 51px;
     left: 683px;
     top: 526px;
@@ -101,164 +71,92 @@ select {
     background:#6244C5;
     border-radius: 10px;
 }
-
-
-
 label {
-    font-family: 'SF Compact';
     font-style: normal;
-    font-weight: 457;
     font-size: 18px;
-    line-height: 21px;
-
     color: #33475B;
+    padding: 5px 0;
 }
 
-.inputB {
-
-    width: 378px;
-    padding: 20px 20px;
-    margin: 8px 0;
-    background: rgba(240, 236, 236, 0.7);
-    border: none;
-    border-radius: 5px;
-    height: 21px;
-    left: 851px;
-    top: 412px;
-    font-family: 'SF Compact';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 18px;
-    line-height: 21px;
-
-color: rgba(0, 0, 0, 0.767);
-}
-.form-control{
-    width: 378px;
-        padding: 26px 20px;
-        margin: 8px 0;
-        background: rgba(240, 236, 236, 0.7);
-        border: 1px solid gray !important;
-        border-radius: 5px;
-        font-family: 'SF Compact';
-        font-weight: 350;
-        font-size: 18px;
-        line-height: 21px;
-        color: rgba(0, 0, 0, 0.767);
-
-}
 .registerContent {
     text-align: center;
-    font-family: 'SF Compact';
     font-style: normal;
     font-weight: 350;
     font-size: 13px;
     line-height: 16px;
     /* identical to box height */
-
-
     color: #33475B;
 }
-
-.inputHeadButton {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.registerContent span {
-    font-family: 'SF Compact';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 13px;
-    line-height: 16px;
-    /* identical to box height */
-
-
-    color:
-        #3582AD;
-}
-
 .contact-img{
     display: flex;
     justify-content: center;
    
-    width: 400px;
 }
 
-.LoginPartC {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 0;
+input[type=text] {
+    color: #303C48;
+    width: 100%;
+    border: 1px solid #f0f3f3;
+    background-color: white;
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+    border-radius: 5px;
+    margin: 12px 0;
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: .3s;
 }
-
-.InputCheckbox {
-    width: 15px;
-    height: 15px;
-    left: 816px;
-    top: 552px;
-
-    background: rgba(202, 183, 183, 0.432);
-    border: 1px solid rgb(250, 247, 247);
-    border-radius: 2px;
+input[type=text]:focus {
+    border-color: rgb(116, 147, 179);
+    box-shadow: 0 0 8px 0 rgb(210, 219, 228);
 }
-
-.LoginPartC span {
-    padding-left: 8px;
-}
-
-
-
-@media only screen and (max-width:860px) {
+  .form-control:focus {
+      border-color: rgb(116, 147, 179);
+      box-shadow: 0 0 8px 0 rgb(210, 219, 228);
+  }
+  .form-control {
+      width: 400px;
+        color: #303C48;
+            border: 1px solid #f0f3f3;
+            background-color: white;
+            box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+            border-radius: 5px;
+            margin: 12px 0;
+            outline: none;
+            padding: 12px;
+            box-sizing: border-box;
+            transition: .3s;
+  }
+@media only screen and (max-width:960px) {
     .LoginHead {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
 
     }
-
-    .inputB {
-
-        width: 350px;
-
-
-        padding: 18px 28px;
-        margin: 8px 0;
-
-
-        background: rgba(217, 217, 217, 0.7);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-
-
-
-
-
-        height: 21px;
-        left: 851px;
-        top: 412px;
-
-        font-family: 'SF Compact';
-        font-style: normal;
-        font-weight: 350;
-        font-size: 18px;
-        line-height: 21px;
-
-        color: rgba(51, 71, 91, 0.4);
-    }
-
     .BTNRegister {
-
         color: white;
         width: 350px;
         height: 51px;
         left: 683px;
         top: 526px;
         border: none;
-        background: #209F85;
+        background: #6244C5;
         border-radius: 10px;
     }
-
-
+          .form-control {
+              width: 350px;
+              color: #303C48;
+              border: 1px solid #f0f3f3;
+              background-color: white;
+              box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+              border-radius: 5px;
+              margin: 12px 0;
+              outline: none;
+              padding: 12px;
+              box-sizing: border-box;
+              transition: .3s;
+          }
 }
 
 @media only screen and (max-width:560px) {
@@ -267,51 +165,27 @@ color: rgba(0, 0, 0, 0.767);
         grid-template-columns: repeat(1, 1fr);
 
     }
-
-
-    .inputB {
-
-        width: 300px;
-
-
-        padding: 18px 28px;
-        margin: 8px 0;
-
-
-        background: rgba(217, 217, 217, 0.7);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-
-
-
-
-
-        height: 21px;
-        left: 851px;
-        top: 412px;
-
-        font-family: 'SF Compact';
-        font-style: normal;
-        font-weight: 350;
-        font-size: 18px;
-        line-height: 21px;
-
-        color: rgba(51, 71, 91, 0.4);
-    }
-
     .BTNRegister {
-
         color: white;
         width: 310px;
         height: 51px;
         left: 683px;
         top: 526px;
         border: none;
-        background: #209F85;
+    background: #6244C5;
         border-radius: 10px;
     }
-
-
-
-
+          .form-control {
+              width: 310px;
+              color: #303C48;
+              border: 1px solid #f0f3f3;
+              background-color: white;
+              box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+              border-radius: 5px;
+              margin: 12px 0;
+              outline: none;
+              padding: 12px;
+              box-sizing: border-box;
+              transition: .3s;
+          }
 }

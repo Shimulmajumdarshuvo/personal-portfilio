@@ -10,7 +10,6 @@ const SkillEducation = () => {
 			<div>
 				<SkillSection></SkillSection>
 			</div>
-
 			<div>
 				<ExperienceEducation></ExperienceEducation>
 			</div>

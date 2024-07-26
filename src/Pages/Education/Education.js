@@ -4,7 +4,7 @@ import "./Education.css";
 
 const Education = () => {
 	return (
-		<div className="container head ">
+		<div className="head ">
 			{/* <div className="educationHead">
 				<h2>Education </h2>
 			</div> */}

@@ -1,23 +1,30 @@
-import React from "react";
+import React ,{useEffect}from "react";
 import "./SkillSection.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SkillSection = () => {
+		useEffect(() => {
+			Aos.init({ duration: 3000 });
+		}, []);
 	return (
 		<div id="skill" className=" Skill-Sections">
-			<div className=" ">
-				<h2 className="subtitle">Professional Skills </h2>
+			<div className="mb-4 ">
+				<h2 className="subtitle" data-aos="fade-left">
+					Professional Skills{" "}
+				</h2>
 			</div>
 
-			<div className="container">
+			<div className="container mt-4" data-aos="zoom-in-right">
 				<div className="row">
-					<div className="col-md-12 container">
+					<div className="col-md-12 ">
 						<div className="progress-title">
 							<h3>HTML</h3>
 							<div className="progress">
 								<div
 									className="progress-bar"
 									style={{ width: "85%", backgroundColor: "#CB2DF6" }}>
-									<div className="progress-value">85%</div>
+									{/* <div className="progress-value">85%</div> */}
 								</div>
 							</div>
 						</div>
@@ -27,7 +34,7 @@ const SkillSection = () => {
 								<div
 									className="progress-bar"
 									style={{ width: "80%", backgroundColor: "#77183C" }}>
-									<div className="progress-value">80%</div>
+									{/* <div className="progress-value">80%</div> */}
 								</div>
 							</div>
 						</div>
@@ -36,8 +43,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "90%", backgroundColor: "blue" }}>
-									<div className="progress-value">90%</div>
+									style={{ width: "85%", backgroundColor: "blue" }}>
+									{/* <div className="progress-value">85%</div> */}
 								</div>
 							</div>
 						</div>
@@ -46,8 +53,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "90%", backgroundColor: "yellow" }}>
-									<div className="progress-value">90%</div>
+									style={{ width: "80%", backgroundColor: "yellow" }}>
+									{/* <div className="progress-value">90%</div> */}
 								</div>
 							</div>
 						</div>
@@ -56,8 +63,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "75%", backgroundColor: "#096363" }}>
-									<div className="progress-value">75%</div>
+									style={{ width: "65%", backgroundColor: "#096363" }}>
+									{/* <div className="progress-value">75%</div> */}
 								</div>
 							</div>
 						</div>
@@ -66,8 +73,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "75%", backgroundColor: "#00EBDD" }}>
-									<div className="progress-value">75%</div>
+									style={{ width: "65%", backgroundColor: "#00EBDD" }}>
+									{/* <div className="progress-value">75%</div> */}
 								</div>
 							</div>
 						</div>
@@ -76,8 +83,8 @@ const SkillSection = () => {
 							<div className="progress">
 								<div
 									className="progress-bar"
-									style={{ width: "75%", backgroundColor: "violet " }}>
-									<div className="progress-value">75%</div>
+									style={{ width: "60%", backgroundColor: "violet " }}>
+									{/* <div className="progress-value">75%</div> */}
 								</div>
 							</div>
 						</div>

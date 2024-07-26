@@ -5,7 +5,7 @@ import "./ProfessionalExperience.css";
 class ProfessionalExperience extends Component {
 	render() {
 		return (
-			<div id="experience" className="container head ">
+			<div id="experience" className=" head ">
 				{/* <div className="educationHead">
 				<h2>Education </h2>
 			</div> */}

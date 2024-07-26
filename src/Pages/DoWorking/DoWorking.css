@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-   width: 85%;
+    width: 85%;
     margin: 25px auto;
     grid-gap: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

@@ -1,4 +1,5 @@
 .DetailsAbout{
+    width: 85%;
     margin: 80px auto;
 }
 .about-part {
@@ -25,6 +26,9 @@
     color: aqua;
     border-radius: 50%;
 
+}
+.AboutContents{
+    text-align: justify;
 }
 
 .aboutIcon span {
