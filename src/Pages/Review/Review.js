@@ -59,8 +59,7 @@ const Review = () => {
 									"Your expertise in React and Tailwind CSS is impressive. The
 									components are well-structured and reusable, and the styling
 									is clean and consistent. The application performs smoothly,
-									with a responsive design that adapts seamlessly to various
-									devices."
+									with a responsive design various devices."
 								</p>
 								<span>
 									<BsFillStarFill></BsFillStarFill>

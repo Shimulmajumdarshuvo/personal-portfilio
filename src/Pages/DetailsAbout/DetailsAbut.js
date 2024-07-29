@@ -13,23 +13,23 @@ const DetailsAbut = () => {
 
 							<p className="AboutContents ICON slide-left py-2 ">
 								I am a skilled Front-End Web Developer and Programmer with
-								extensive experience in freelance web development for a global
-								clientele, consistently delivering high-quality products. My
-								expertise includes HTML, CSS, Bootstrap, TailwindCSS, JavaScript
-								(ES6), and the MERN (MongoDB, Express, React, Node) stack. I aim
-								to contribute to the creation of engaging and user-friendly web
-								applications while continuously enhancing my technical abilities
-								and growing within the company. I am confident that my fresh
-								ideas and innovative approach will add significant value to your
-								team.
+								extensive experience in freelance web development, consistently
+								delivering high-quality products to a diverse range of clients.
+								My expertise includes HTML, CSS, Bootstrap, TailwindCSS,
+								JavaScript (ES6), and the MERN (MongoDB, Express, React, Node,
+								Next) stack. I am eager to contribute to the creation of
+								engaging and user-friendly web applications while continuously
+								enhancing my technical abilities and growing within the company.
+								I am confident that my fresh ideas and innovative approach will
+								add significant value to your team.
 							</p>
-							
+
 							<br />
 
 							<div className="d-print-none links mt-1  slide-left">
 								<a
 									className="ButtonsContact  "
-									href="https://drive.google.com/file/d/1O_LJnko1vwiZhzrC5LRzvtxFBshS9fl_/view?fbclid=IwAR3nfpIiz6XCR3APrlWd4cvfLxT2PssHt57fWX9BewVERc0w3Sk2TnsUHVM"
+									href="https://drive.google.com/file/d/17Bw_6iHBvBX1UEX3dIe3SJAp-mONpHlS/view?usp=sharing"
 									target="_blank/">
 									Download Resume{" "}
 									<span>

@@ -23,6 +23,14 @@ class ProfessionalExperience extends Component {
 							</h6>
 
 							<p className="card-text">Kasfia IT, Khulna, Bangladesh</p>
+							<p>
+								As a Front-End Web Developer at Kasfia IT, I developed
+								responsive web interfaces using React.js and Next.js, styled
+								with Tailwind CSS. I collaborated with designers to transform
+								mockups into functional pages, integrated APIs, and ensured
+								cross-browser compatibility. Additionally, I utilized Node.js
+								and MongoDB for backend development.
+							</p>
 						</div>
 						<div className="card-part">
 							<h5 className="card-title">React.JS Developer</h5>
@@ -34,6 +42,10 @@ class ProfessionalExperience extends Component {
 								01-08-2022 to 30-11-2022
 							</h6>
 							<p className="card-text ">Saha Technology, Dhaka, Bangladesh</p>
+							<p>
+								I was responsible for making a website beautiful, attractive and
+								responsive.
+							</p>
 						</div>
 					</div>
 				</div>

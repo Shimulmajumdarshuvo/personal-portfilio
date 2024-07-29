@@ -27,7 +27,7 @@ const DoWorking = () => {
 					</div>
 					<h2>01. Discussion</h2>
 					<p>
-						We start with an initial meeting to understand the client's
+						I start with an initial meeting to understand the client's
 						requirements, goals, and deadlines. Clear communication is
 						established to ensure regular updates and feedback.
 					</p>

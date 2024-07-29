@@ -13,8 +13,9 @@ const Footer = () => {
 							<img src={img1} alt="" className="img-fluid" />
 						</div>
 						<h5>
-							I am Experience Front-end Web Developer. Designed and Developed by
-							[Kasfia IT], Expert in React.js Web Development.
+							I am an experienced Front-End Web Developer, specializing in
+							designing and developing web applications with React.js. I have
+							worked with [Kasfia IT] to deliver high-quality solutions.
 						</h5>
 					</div>
 					<div className="fSection">
